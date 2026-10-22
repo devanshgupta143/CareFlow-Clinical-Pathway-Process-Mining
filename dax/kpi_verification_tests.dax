@@ -1,0 +1,18 @@
+// ================================================
+// Core DAX KPI Formulas & Expected Benchmark Tests
+// ================================================
+
+// KPI 1: Average Patient Wait Time (Minutes)
+Avg Wait Time = 
+AVERAGE(Fact_Hospital_Events[WaitTimeMinutes])
+
+// KPI 2: Total Bottleneck Incidents (> 60 mins)
+Total Bottlenecks = 
+CALCULATE(
+    COUNTROWS(Fact_Hospital_Events),
+    Fact_Hospital_Events[WaitTimeMinutes] > 60
+)
+
+// KPI 3: Bottleneck Incident Percentage (%)
+Bottleneck Rate % = 
+DIVIDE([Total Bottlenecks], COUNTROWS(Fact_Hospital_Events), 0) * 100
