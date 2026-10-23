@@ -1,0 +1,15 @@
+// ================================================
+// Advanced Process Mining DAX Measures
+// ================================================
+
+// KPI 1: Median Patient Wait Time (Robust against extreme outliers)
+Median Wait Time = 
+MEDIAN(Fact_Hospital_Events[WaitTimeMinutes])
+
+// KPI 2: Active Case Throughput Rate
+Throughput Rate = 
+DIVIDE(
+    DISTINCTCOUNT(Fact_Hospital_Events[Patient_ID]),
+    CALCULATE(DISTINCTCOUNT(Fact_Hospital_Events[Patient_ID]), ALL(Dim_Calendar)),
+    0
+)
