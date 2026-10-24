@@ -1,0 +1,22 @@
+// ================================================
+// Advanced DAX Time-Intelligence Measures
+// ================================================
+
+// KPI 1: 7-Day Moving Average Wait Time
+Wait Time 7D Moving Avg = 
+CALCULATE(
+    AVERAGE(Fact_Hospital_Events[WaitTimeMinutes]),
+    DATESINPERIOD(
+        Dim_Calendar[Date],
+        LASTDATE(Dim_Calendar[Date]),
+        -7,
+        DAY
+    )
+)
+
+// KPI 2: Cumulative Total Patient Events Year-to-Date
+Cumulative Events YTD = 
+TOTALYTD(
+    COUNTROWS(Fact_Hospital_Events),
+    Dim_Calendar[Date]
+)
