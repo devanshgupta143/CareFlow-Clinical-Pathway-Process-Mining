@@ -1,0 +1,1144 @@
+Injection_ID,Case_ID,Scenario_Type,Operation_Type,Activity_Name,From_Activity,To_Activity,Injected_Value,Details
+INJ0001,CF0001,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0002,CF0008,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0003,CF0012,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0004,CF0013,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0005,CF0019,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0006,CF0021,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0007,CF0026,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0008,CF0037,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0009,CF0045,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0010,CF0048,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0011,CF0049,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0012,CF0062,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0013,CF0079,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0014,CF0085,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0015,CF0090,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0016,CF0091,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0017,CF0093,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0018,CF0094,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0019,CF0095,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0020,CF0098,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0021,CF0102,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0022,CF0104,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0023,CF0112,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0024,CF0114,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0025,CF0124,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0026,CF0152,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0027,CF0158,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0028,CF0170,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0029,CF0171,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0030,CF0188,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0031,CF0191,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0032,CF0207,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0033,CF0214,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0034,CF0223,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0035,CF0228,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0036,CF0233,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0037,CF0235,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0038,CF0252,Incomplete_Visit,Truncate_Pathway,Doctor_Consultation,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0039,CF0254,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0040,CF0255,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0041,CF0267,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0042,CF0268,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0043,CF0268,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0044,CF0269,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0045,CF0275,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0046,CF0285,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0047,CF0286,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0048,CF0288,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0049,CF0305,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0050,CF0306,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0051,CF0310,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0052,CF0310,Incomplete_Visit,Truncate_Pathway,Review_Results,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0053,CF0316,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0054,CF0318,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0055,CF0319,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0056,CF0320,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0057,CF0326,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0058,CF0332,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0059,CF0341,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0060,CF0344,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0061,CF0345,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0062,CF0353,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0063,CF0368,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0064,CF0370,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0065,CF0385,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0066,CF0390,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0067,CF0391,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0068,CF0399,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0069,CF0418,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0070,CF0427,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0071,CF0433,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0072,CF0442,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0073,CF0443,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0074,CF0449,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0075,CF0449,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0076,CF0450,Incomplete_Visit,Truncate_Pathway,Doctor_Consultation,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0077,CF0456,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0078,CF0473,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0079,CF0473,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0080,CF0477,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0081,CF0480,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0082,CF0481,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0083,CF0483,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0084,CF0488,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0085,CF0499,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0086,CF0500,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0087,CF0503,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0088,CF0507,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0089,CF0508,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0090,CF0527,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0091,CF0531,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0092,CF0534,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0093,CF0537,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0094,CF0538,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0095,CF0540,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0096,CF0542,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0097,CF0549,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0098,CF0556,Incomplete_Visit,Truncate_Pathway,Diagnostic_Test,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0099,CF0560,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0100,CF0560,Incomplete_Visit,Truncate_Pathway,Doctor_Consultation,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0101,CF0561,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0102,CF0563,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0103,CF0579,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0104,CF0581,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0105,CF0595,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0106,CF0598,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0107,CF0605,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0108,CF0610,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0109,CF0616,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0110,CF0618,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0111,CF0626,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0112,CF0632,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0113,CF0636,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0114,CF0638,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0115,CF0647,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0116,CF0654,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0117,CF0660,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0118,CF0661,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0119,CF0681,Incomplete_Visit,Truncate_Pathway,Diagnostic_Test,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0120,CF0685,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0121,CF0687,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0122,CF0698,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0123,CF0703,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0124,CF0711,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0125,CF0716,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0126,CF0718,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0127,CF0731,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0128,CF0745,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0129,CF0751,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0130,CF0751,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0131,CF0757,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0132,CF0760,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0133,CF0778,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0134,CF0786,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0135,CF0788,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0136,CF0796,Pathway_Deviation,Skip_Sequence,,Diagnostic_Test,Review_Results,,Diagnostic sequence skipped as a simulated pathway deviation
+INJ0137,CF0797,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0138,CF0808,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0139,CF0812,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0140,CF0814,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0141,CF0819,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0142,CF0820,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0143,CF0822,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0144,CF0824,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0145,CF0832,Incomplete_Visit,Truncate_Pathway,Doctor_Consultation,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0146,CF0846,Incomplete_Visit,Truncate_Pathway,Doctor_Consultation,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0147,CF0856,Pathway_Deviation,Skip_Activity,Doctor_Consultation,,,,Activity skipped as a simulated pathway deviation
+INJ0148,CF0860,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0149,CF0866,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0150,CF0868,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0151,CF0872,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0152,CF0876,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0153,CF0892,Incomplete_Visit,Truncate_Pathway,Review_Results,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0154,CF0897,Rework,Repeat_Activity,Diagnostic_Test,Diagnostic_Test,Diagnostic_Test,,One additional occurrence of an activity
+INJ0155,CF0898,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0156,CF0904,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0157,CF0905,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0158,CF0917,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0159,CF0923,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0160,CF0928,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0161,CF0932,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0162,CF0933,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0163,CF0951,Pathway_Deviation,Skip_Activity,Triage,,,,Fallback skip used because no approved adjacent reorder exists in the reference path
+INJ0164,CF0957,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0165,CF0959,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0166,CF0969,Pathway_Deviation,Skip_Activity,Triage,,,,Activity skipped as a simulated pathway deviation
+INJ0167,CF0973,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0168,CF0976,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0169,CF0984,Rework,Repeat_Activity,Doctor_Consultation,Doctor_Consultation,Doctor_Consultation,,One additional occurrence of an activity
+INJ0170,CF0988,Incomplete_Visit,Truncate_Pathway,Triage,,,,Simulated journey ends without a Discharge event; this does not establish why the visit ended
+INJ0171,CF0990,Rework,Repeat_Activity,Triage,Triage,Triage,,One additional occurrence of an activity
+INJ0172,CF0001,Long_Wait,Extend_Wait,,Triage,Discharge,41,Selected long-wait transition
+INJ0173,CF0003,Extended_Duration,Extend_Activity,Doctor_Consultation,,,59,Activity duration sampled from extended range
+INJ0174,CF0003,Extended_Duration,Extend_Activity,Review_Results,,,18,Activity duration sampled from extended range
+INJ0175,CF0004,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0176,CF0004,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0177,CF0006,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,58,Selected long-wait transition
+INJ0178,CF0007,Extended_Duration,Extend_Activity,Review_Results,,,19,Activity duration sampled from extended range
+INJ0179,CF0008,Long_Wait,Extend_Wait,,Triage,Discharge,58,Selected long-wait transition
+INJ0180,CF0008,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0181,CF0010,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,49,Selected long-wait transition
+INJ0182,CF0013,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0183,CF0013,Extended_Duration,Extend_Activity,Doctor_Consultation,,,58,Activity duration sampled from extended range
+INJ0184,CF0013,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,36,Selected long-wait transition
+INJ0185,CF0016,Extended_Duration,Extend_Activity,Registration,,,30,Activity duration sampled from extended range
+INJ0186,CF0016,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0187,CF0017,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,76,Selected long-wait transition
+INJ0188,CF0018,Long_Wait,Extend_Wait,,Registration,Triage,49,Selected long-wait transition
+INJ0189,CF0019,Long_Wait,Extend_Wait,,Registration,Triage,66,Selected long-wait transition
+INJ0190,CF0021,Long_Wait,Extend_Wait,,Doctor_Consultation,Doctor_Consultation,47,Selected long-wait transition
+INJ0191,CF0021,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,75,Selected long-wait transition
+INJ0192,CF0022,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0193,CF0023,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,41,Selected long-wait transition
+INJ0194,CF0023,Extended_Duration,Extend_Activity,Review_Results,,,26,Activity duration sampled from extended range
+INJ0195,CF0023,Long_Wait,Extend_Wait,,Review_Results,Discharge,34,Selected long-wait transition
+INJ0196,CF0026,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,58,Selected long-wait transition
+INJ0197,CF0027,Extended_Duration,Extend_Activity,Diagnostic_Test,,,46,Activity duration sampled from extended range
+INJ0198,CF0028,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ0199,CF0029,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,53,Selected long-wait transition
+INJ0200,CF0029,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,45,Selected long-wait transition
+INJ0201,CF0030,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,61,Selected long-wait transition
+INJ0202,CF0032,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,39,Selected long-wait transition
+INJ0203,CF0033,Extended_Duration,Extend_Activity,Registration,,,25,Activity duration sampled from extended range
+INJ0204,CF0034,Extended_Duration,Extend_Activity,Doctor_Consultation,,,45,Activity duration sampled from extended range
+INJ0205,CF0035,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0206,CF0035,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0207,CF0035,Extended_Duration,Extend_Activity,Doctor_Consultation,,,57,Activity duration sampled from extended range
+INJ0208,CF0036,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,59,Selected long-wait transition
+INJ0209,CF0036,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0210,CF0037,Extended_Duration,Extend_Activity,Registration,,,23,Activity duration sampled from extended range
+INJ0211,CF0037,Long_Wait,Extend_Wait,,Registration,Triage,42,Selected long-wait transition
+INJ0212,CF0037,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,74,Selected long-wait transition
+INJ0213,CF0039,Long_Wait,Extend_Wait,,Registration,Triage,58,Selected long-wait transition
+INJ0214,CF0042,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,76,Selected long-wait transition
+INJ0215,CF0042,Extended_Duration,Extend_Activity,Diagnostic_Test,,,35,Activity duration sampled from extended range
+INJ0216,CF0042,Extended_Duration,Extend_Activity,Review_Results,,,30,Activity duration sampled from extended range
+INJ0217,CF0042,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0218,CF0043,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0219,CF0043,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,69,Selected long-wait transition
+INJ0220,CF0043,Extended_Duration,Extend_Activity,Doctor_Consultation,,,57,Activity duration sampled from extended range
+INJ0221,CF0045,Extended_Duration,Extend_Activity,Doctor_Consultation,,,36,Activity duration sampled from extended range
+INJ0222,CF0046,Extended_Duration,Extend_Activity,Doctor_Consultation,,,36,Activity duration sampled from extended range
+INJ0223,CF0047,Long_Wait,Extend_Wait,,Review_Results,Discharge,51,Selected long-wait transition
+INJ0224,CF0048,Extended_Duration,Extend_Activity,Doctor_Consultation,,,38,Activity duration sampled from extended range
+INJ0225,CF0049,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0226,CF0049,Extended_Duration,Extend_Activity,Doctor_Consultation,,,49,Activity duration sampled from extended range
+INJ0227,CF0051,Extended_Duration,Extend_Activity,Review_Results,,,16,Activity duration sampled from extended range
+INJ0228,CF0052,Long_Wait,Extend_Wait,,Registration,Triage,61,Selected long-wait transition
+INJ0229,CF0053,Extended_Duration,Extend_Activity,Registration,,,26,Activity duration sampled from extended range
+INJ0230,CF0053,Extended_Duration,Extend_Activity,Doctor_Consultation,,,45,Activity duration sampled from extended range
+INJ0231,CF0053,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ0232,CF0056,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,62,Selected long-wait transition
+INJ0233,CF0056,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,47,Selected long-wait transition
+INJ0234,CF0057,Extended_Duration,Extend_Activity,Registration,,,21,Activity duration sampled from extended range
+INJ0235,CF0058,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,79,Selected long-wait transition
+INJ0236,CF0058,Extended_Duration,Extend_Activity,Doctor_Consultation,,,36,Activity duration sampled from extended range
+INJ0237,CF0058,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,72,Selected long-wait transition
+INJ0238,CF0060,Extended_Duration,Extend_Activity,Review_Results,,,21,Activity duration sampled from extended range
+INJ0239,CF0060,Long_Wait,Extend_Wait,,Review_Results,Doctor_Consultation,46,Selected long-wait transition
+INJ0240,CF0062,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,81,Selected long-wait transition
+INJ0241,CF0063,Long_Wait,Extend_Wait,,Registration,Triage,63,Selected long-wait transition
+INJ0242,CF0064,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0243,CF0068,Extended_Duration,Extend_Activity,Diagnostic_Test,,,54,Activity duration sampled from extended range
+INJ0244,CF0070,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0245,CF0072,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ0246,CF0073,Long_Wait,Extend_Wait,,Registration,Triage,84,Selected long-wait transition
+INJ0247,CF0074,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,36,Selected long-wait transition
+INJ0248,CF0075,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,39,Selected long-wait transition
+INJ0249,CF0076,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,82,Selected long-wait transition
+INJ0250,CF0078,Long_Wait,Extend_Wait,,Registration,Triage,48,Selected long-wait transition
+INJ0251,CF0081,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,66,Selected long-wait transition
+INJ0252,CF0082,Extended_Duration,Extend_Activity,Registration,,,27,Activity duration sampled from extended range
+INJ0253,CF0082,Extended_Duration,Extend_Activity,Triage,,,26,Activity duration sampled from extended range
+INJ0254,CF0082,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,35,Selected long-wait transition
+INJ0255,CF0083,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,71,Selected long-wait transition
+INJ0256,CF0084,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,36,Selected long-wait transition
+INJ0257,CF0086,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0258,CF0086,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0259,CF0086,Extended_Duration,Extend_Activity,Discharge,,,16,Activity duration sampled from extended range
+INJ0260,CF0088,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0261,CF0088,Long_Wait,Extend_Wait,,Registration,Triage,40,Selected long-wait transition
+INJ0262,CF0088,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,54,Selected long-wait transition
+INJ0263,CF0089,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,39,Selected long-wait transition
+INJ0264,CF0093,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,42,Selected long-wait transition
+INJ0265,CF0093,Long_Wait,Extend_Wait,,Diagnostic_Test,Diagnostic_Test,45,Selected long-wait transition
+INJ0266,CF0094,Long_Wait,Extend_Wait,,Registration,Doctor_Consultation,67,Selected long-wait transition
+INJ0267,CF0095,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0268,CF0096,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ0269,CF0101,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0270,CF0102,Long_Wait,Extend_Wait,,Registration,Triage,58,Selected long-wait transition
+INJ0271,CF0103,Extended_Duration,Extend_Activity,Doctor_Consultation,,,48,Activity duration sampled from extended range
+INJ0272,CF0103,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,59,Selected long-wait transition
+INJ0273,CF0104,Extended_Duration,Extend_Activity,Triage,,,24,Activity duration sampled from extended range
+INJ0274,CF0104,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,60,Selected long-wait transition
+INJ0275,CF0104,Long_Wait,Extend_Wait,,Review_Results,Discharge,43,Selected long-wait transition
+INJ0276,CF0105,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0277,CF0107,Extended_Duration,Extend_Activity,Registration,,,24,Activity duration sampled from extended range
+INJ0278,CF0107,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,74,Selected long-wait transition
+INJ0279,CF0107,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,81,Selected long-wait transition
+INJ0280,CF0108,Extended_Duration,Extend_Activity,Doctor_Consultation,,,36,Activity duration sampled from extended range
+INJ0281,CF0111,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,52,Selected long-wait transition
+INJ0282,CF0113,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0283,CF0118,Extended_Duration,Extend_Activity,Doctor_Consultation,,,33,Activity duration sampled from extended range
+INJ0284,CF0120,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0285,CF0121,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,63,Selected long-wait transition
+INJ0286,CF0122,Extended_Duration,Extend_Activity,Doctor_Consultation,,,46,Activity duration sampled from extended range
+INJ0287,CF0123,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0288,CF0126,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0289,CF0127,Long_Wait,Extend_Wait,,Registration,Triage,50,Selected long-wait transition
+INJ0290,CF0128,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,40,Selected long-wait transition
+INJ0291,CF0129,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,40,Selected long-wait transition
+INJ0292,CF0129,Extended_Duration,Extend_Activity,Diagnostic_Test,,,45,Activity duration sampled from extended range
+INJ0293,CF0131,Extended_Duration,Extend_Activity,Doctor_Consultation,,,57,Activity duration sampled from extended range
+INJ0294,CF0132,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,54,Selected long-wait transition
+INJ0295,CF0134,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,74,Selected long-wait transition
+INJ0296,CF0135,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0297,CF0135,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,41,Selected long-wait transition
+INJ0298,CF0136,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,54,Selected long-wait transition
+INJ0299,CF0136,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,77,Selected long-wait transition
+INJ0300,CF0138,Extended_Duration,Extend_Activity,Doctor_Consultation,,,52,Activity duration sampled from extended range
+INJ0301,CF0140,Extended_Duration,Extend_Activity,Review_Results,,,18,Activity duration sampled from extended range
+INJ0302,CF0141,Extended_Duration,Extend_Activity,Triage,,,30,Activity duration sampled from extended range
+INJ0303,CF0141,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0304,CF0141,Extended_Duration,Extend_Activity,Diagnostic_Test,,,48,Activity duration sampled from extended range
+INJ0305,CF0145,Long_Wait,Extend_Wait,,Registration,Triage,66,Selected long-wait transition
+INJ0306,CF0147,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,46,Selected long-wait transition
+INJ0307,CF0148,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ0308,CF0149,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,65,Selected long-wait transition
+INJ0309,CF0150,Extended_Duration,Extend_Activity,Registration,,,29,Activity duration sampled from extended range
+INJ0310,CF0150,Extended_Duration,Extend_Activity,Doctor_Consultation,,,60,Activity duration sampled from extended range
+INJ0311,CF0151,Extended_Duration,Extend_Activity,Doctor_Consultation,,,33,Activity duration sampled from extended range
+INJ0312,CF0153,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ0313,CF0153,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,62,Selected long-wait transition
+INJ0314,CF0154,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,64,Selected long-wait transition
+INJ0315,CF0154,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,62,Selected long-wait transition
+INJ0316,CF0154,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,83,Selected long-wait transition
+INJ0317,CF0155,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,71,Selected long-wait transition
+INJ0318,CF0155,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,61,Selected long-wait transition
+INJ0319,CF0155,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0320,CF0156,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,85,Selected long-wait transition
+INJ0321,CF0156,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,45,Selected long-wait transition
+INJ0322,CF0157,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ0323,CF0158,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0324,CF0160,Long_Wait,Extend_Wait,,Registration,Triage,82,Selected long-wait transition
+INJ0325,CF0160,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,37,Selected long-wait transition
+INJ0326,CF0160,Extended_Duration,Extend_Activity,Doctor_Consultation,,,58,Activity duration sampled from extended range
+INJ0327,CF0161,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,60,Selected long-wait transition
+INJ0328,CF0161,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0329,CF0162,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,74,Selected long-wait transition
+INJ0330,CF0162,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,43,Selected long-wait transition
+INJ0331,CF0164,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0332,CF0166,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0333,CF0167,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,34,Selected long-wait transition
+INJ0334,CF0171,Extended_Duration,Extend_Activity,Diagnostic_Test,,,38,Activity duration sampled from extended range
+INJ0335,CF0173,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,38,Selected long-wait transition
+INJ0336,CF0175,Long_Wait,Extend_Wait,,Registration,Triage,78,Selected long-wait transition
+INJ0337,CF0178,Extended_Duration,Extend_Activity,Triage,,,28,Activity duration sampled from extended range
+INJ0338,CF0179,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,73,Selected long-wait transition
+INJ0339,CF0179,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,55,Selected long-wait transition
+INJ0340,CF0179,Extended_Duration,Extend_Activity,Review_Results,,,27,Activity duration sampled from extended range
+INJ0341,CF0179,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0342,CF0180,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0343,CF0180,Extended_Duration,Extend_Activity,Doctor_Consultation,,,41,Activity duration sampled from extended range
+INJ0344,CF0180,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,40,Selected long-wait transition
+INJ0345,CF0183,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ0346,CF0183,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0347,CF0184,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,74,Selected long-wait transition
+INJ0348,CF0185,Extended_Duration,Extend_Activity,Doctor_Consultation,,,34,Activity duration sampled from extended range
+INJ0349,CF0185,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,52,Selected long-wait transition
+INJ0350,CF0187,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,59,Selected long-wait transition
+INJ0351,CF0187,Long_Wait,Extend_Wait,,Review_Results,Discharge,49,Selected long-wait transition
+INJ0352,CF0188,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,60,Selected long-wait transition
+INJ0353,CF0190,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0354,CF0192,Long_Wait,Extend_Wait,,Registration,Triage,81,Selected long-wait transition
+INJ0355,CF0193,Extended_Duration,Extend_Activity,Doctor_Consultation,,,55,Activity duration sampled from extended range
+INJ0356,CF0195,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,75,Selected long-wait transition
+INJ0357,CF0196,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0358,CF0196,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0359,CF0196,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,66,Selected long-wait transition
+INJ0360,CF0197,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,51,Selected long-wait transition
+INJ0361,CF0198,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,47,Selected long-wait transition
+INJ0362,CF0198,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,53,Selected long-wait transition
+INJ0363,CF0199,Extended_Duration,Extend_Activity,Diagnostic_Test,,,60,Activity duration sampled from extended range
+INJ0364,CF0200,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,76,Selected long-wait transition
+INJ0365,CF0201,Long_Wait,Extend_Wait,,Registration,Triage,61,Selected long-wait transition
+INJ0366,CF0202,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,63,Selected long-wait transition
+INJ0367,CF0204,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ0368,CF0205,Extended_Duration,Extend_Activity,Triage,,,28,Activity duration sampled from extended range
+INJ0369,CF0207,Extended_Duration,Extend_Activity,Doctor_Consultation,,,34,Activity duration sampled from extended range
+INJ0370,CF0207,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,71,Selected long-wait transition
+INJ0371,CF0208,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,67,Selected long-wait transition
+INJ0372,CF0213,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0373,CF0214,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,78,Selected long-wait transition
+INJ0374,CF0215,Long_Wait,Extend_Wait,,Registration,Triage,46,Selected long-wait transition
+INJ0375,CF0215,Extended_Duration,Extend_Activity,Diagnostic_Test,,,56,Activity duration sampled from extended range
+INJ0376,CF0215,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,48,Selected long-wait transition
+INJ0377,CF0217,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,70,Selected long-wait transition
+INJ0378,CF0218,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,73,Selected long-wait transition
+INJ0379,CF0220,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ0380,CF0221,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,53,Selected long-wait transition
+INJ0381,CF0222,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,62,Selected long-wait transition
+INJ0382,CF0226,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ0383,CF0226,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0384,CF0227,Long_Wait,Extend_Wait,,Registration,Triage,45,Selected long-wait transition
+INJ0385,CF0230,Long_Wait,Extend_Wait,,Registration,Triage,68,Selected long-wait transition
+INJ0386,CF0231,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ0387,CF0232,Extended_Duration,Extend_Activity,Review_Results,,,27,Activity duration sampled from extended range
+INJ0388,CF0234,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,37,Selected long-wait transition
+INJ0389,CF0235,Extended_Duration,Extend_Activity,Diagnostic_Test,,,45,Activity duration sampled from extended range
+INJ0390,CF0235,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,32,Selected long-wait transition
+INJ0391,CF0236,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ0392,CF0237,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0393,CF0238,Extended_Duration,Extend_Activity,Registration,,,22,Activity duration sampled from extended range
+INJ0394,CF0239,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,42,Selected long-wait transition
+INJ0395,CF0242,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0396,CF0243,Extended_Duration,Extend_Activity,Registration,,,26,Activity duration sampled from extended range
+INJ0397,CF0244,Long_Wait,Extend_Wait,,Review_Results,Discharge,57,Selected long-wait transition
+INJ0398,CF0244,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0399,CF0245,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,45,Selected long-wait transition
+INJ0400,CF0246,Long_Wait,Extend_Wait,,Registration,Triage,66,Selected long-wait transition
+INJ0401,CF0246,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,37,Selected long-wait transition
+INJ0402,CF0246,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0403,CF0247,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,56,Selected long-wait transition
+INJ0404,CF0247,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,76,Selected long-wait transition
+INJ0405,CF0248,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0406,CF0248,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,85,Selected long-wait transition
+INJ0407,CF0248,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,47,Selected long-wait transition
+INJ0408,CF0251,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,68,Selected long-wait transition
+INJ0409,CF0252,Extended_Duration,Extend_Activity,Doctor_Consultation,,,57,Activity duration sampled from extended range
+INJ0410,CF0253,Extended_Duration,Extend_Activity,Doctor_Consultation,,,31,Activity duration sampled from extended range
+INJ0411,CF0254,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0412,CF0256,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,57,Selected long-wait transition
+INJ0413,CF0258,Extended_Duration,Extend_Activity,Triage,,,25,Activity duration sampled from extended range
+INJ0414,CF0259,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,54,Selected long-wait transition
+INJ0415,CF0260,Long_Wait,Extend_Wait,,Registration,Triage,49,Selected long-wait transition
+INJ0416,CF0261,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0417,CF0263,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0418,CF0263,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,46,Selected long-wait transition
+INJ0419,CF0265,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,68,Selected long-wait transition
+INJ0420,CF0267,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,36,Selected long-wait transition
+INJ0421,CF0268,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,67,Selected long-wait transition
+INJ0422,CF0270,Extended_Duration,Extend_Activity,Doctor_Consultation,,,55,Activity duration sampled from extended range
+INJ0423,CF0273,Extended_Duration,Extend_Activity,Registration,,,28,Activity duration sampled from extended range
+INJ0424,CF0273,Extended_Duration,Extend_Activity,Diagnostic_Test,,,43,Activity duration sampled from extended range
+INJ0425,CF0274,Extended_Duration,Extend_Activity,Review_Results,,,18,Activity duration sampled from extended range
+INJ0426,CF0276,Long_Wait,Extend_Wait,,Registration,Triage,48,Selected long-wait transition
+INJ0427,CF0276,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0428,CF0277,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,68,Selected long-wait transition
+INJ0429,CF0277,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,73,Selected long-wait transition
+INJ0430,CF0278,Extended_Duration,Extend_Activity,Triage,,,23,Activity duration sampled from extended range
+INJ0431,CF0279,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,34,Selected long-wait transition
+INJ0432,CF0280,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,52,Selected long-wait transition
+INJ0433,CF0282,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,59,Selected long-wait transition
+INJ0434,CF0284,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,37,Selected long-wait transition
+INJ0435,CF0286,Extended_Duration,Extend_Activity,Doctor_Consultation,,,54,Activity duration sampled from extended range
+INJ0436,CF0289,Extended_Duration,Extend_Activity,Registration,,,26,Activity duration sampled from extended range
+INJ0437,CF0290,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0438,CF0291,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ0439,CF0292,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,70,Selected long-wait transition
+INJ0440,CF0293,Long_Wait,Extend_Wait,,Registration,Triage,68,Selected long-wait transition
+INJ0441,CF0293,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0442,CF0294,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,54,Selected long-wait transition
+INJ0443,CF0295,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,33,Selected long-wait transition
+INJ0444,CF0296,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,59,Selected long-wait transition
+INJ0445,CF0296,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,68,Selected long-wait transition
+INJ0446,CF0296,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0447,CF0297,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,34,Selected long-wait transition
+INJ0448,CF0303,Extended_Duration,Extend_Activity,Triage,,,23,Activity duration sampled from extended range
+INJ0449,CF0303,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0450,CF0303,Extended_Duration,Extend_Activity,Doctor_Consultation,,,37,Activity duration sampled from extended range
+INJ0451,CF0304,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,82,Selected long-wait transition
+INJ0452,CF0305,Extended_Duration,Extend_Activity,Triage,,,23,Activity duration sampled from extended range
+INJ0453,CF0305,Extended_Duration,Extend_Activity,Doctor_Consultation,,,52,Activity duration sampled from extended range
+INJ0454,CF0309,Extended_Duration,Extend_Activity,Doctor_Consultation,,,42,Activity duration sampled from extended range
+INJ0455,CF0309,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,81,Selected long-wait transition
+INJ0456,CF0309,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,45,Selected long-wait transition
+INJ0457,CF0311,Extended_Duration,Extend_Activity,Diagnostic_Test,,,44,Activity duration sampled from extended range
+INJ0458,CF0311,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,70,Selected long-wait transition
+INJ0459,CF0312,Extended_Duration,Extend_Activity,Doctor_Consultation,,,47,Activity duration sampled from extended range
+INJ0460,CF0313,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,61,Selected long-wait transition
+INJ0461,CF0313,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,81,Selected long-wait transition
+INJ0462,CF0313,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0463,CF0314,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0464,CF0314,Long_Wait,Extend_Wait,,Registration,Triage,32,Selected long-wait transition
+INJ0465,CF0314,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0466,CF0314,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,66,Selected long-wait transition
+INJ0467,CF0315,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,45,Selected long-wait transition
+INJ0468,CF0316,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,46,Selected long-wait transition
+INJ0469,CF0318,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,46,Selected long-wait transition
+INJ0470,CF0318,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,57,Selected long-wait transition
+INJ0471,CF0320,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0472,CF0320,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0473,CF0324,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0474,CF0325,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ0475,CF0325,Extended_Duration,Extend_Activity,Doctor_Consultation,,,51,Activity duration sampled from extended range
+INJ0476,CF0327,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0477,CF0329,Extended_Duration,Extend_Activity,Doctor_Consultation,,,55,Activity duration sampled from extended range
+INJ0478,CF0331,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ0479,CF0331,Extended_Duration,Extend_Activity,Doctor_Consultation,,,55,Activity duration sampled from extended range
+INJ0480,CF0333,Long_Wait,Extend_Wait,,Registration,Triage,40,Selected long-wait transition
+INJ0481,CF0334,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0482,CF0335,Extended_Duration,Extend_Activity,Diagnostic_Test,,,33,Activity duration sampled from extended range
+INJ0483,CF0336,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,66,Selected long-wait transition
+INJ0484,CF0336,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0485,CF0337,Extended_Duration,Extend_Activity,Triage,,,28,Activity duration sampled from extended range
+INJ0486,CF0338,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,33,Selected long-wait transition
+INJ0487,CF0338,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,67,Selected long-wait transition
+INJ0488,CF0338,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0489,CF0339,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,38,Selected long-wait transition
+INJ0490,CF0340,Extended_Duration,Extend_Activity,Doctor_Consultation,,,59,Activity duration sampled from extended range
+INJ0491,CF0342,Extended_Duration,Extend_Activity,Triage,,,29,Activity duration sampled from extended range
+INJ0492,CF0342,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0493,CF0344,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ0494,CF0345,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,76,Selected long-wait transition
+INJ0495,CF0347,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,58,Selected long-wait transition
+INJ0496,CF0349,Extended_Duration,Extend_Activity,Doctor_Consultation,,,38,Activity duration sampled from extended range
+INJ0497,CF0349,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0498,CF0351,Extended_Duration,Extend_Activity,Triage,,,21,Activity duration sampled from extended range
+INJ0499,CF0351,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,35,Selected long-wait transition
+INJ0500,CF0351,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0501,CF0352,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0502,CF0353,Extended_Duration,Extend_Activity,Doctor_Consultation,,,42,Activity duration sampled from extended range
+INJ0503,CF0354,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,50,Selected long-wait transition
+INJ0504,CF0355,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0505,CF0355,Long_Wait,Extend_Wait,,Registration,Triage,50,Selected long-wait transition
+INJ0506,CF0355,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,69,Selected long-wait transition
+INJ0507,CF0355,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0508,CF0358,Extended_Duration,Extend_Activity,Diagnostic_Test,,,47,Activity duration sampled from extended range
+INJ0509,CF0358,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,73,Selected long-wait transition
+INJ0510,CF0359,Extended_Duration,Extend_Activity,Registration,,,27,Activity duration sampled from extended range
+INJ0511,CF0359,Long_Wait,Extend_Wait,,Registration,Triage,72,Selected long-wait transition
+INJ0512,CF0359,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,46,Selected long-wait transition
+INJ0513,CF0361,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ0514,CF0362,Extended_Duration,Extend_Activity,Doctor_Consultation,,,56,Activity duration sampled from extended range
+INJ0515,CF0362,Extended_Duration,Extend_Activity,Diagnostic_Test,,,36,Activity duration sampled from extended range
+INJ0516,CF0363,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0517,CF0364,Extended_Duration,Extend_Activity,Doctor_Consultation,,,33,Activity duration sampled from extended range
+INJ0518,CF0366,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0519,CF0367,Extended_Duration,Extend_Activity,Registration,,,28,Activity duration sampled from extended range
+INJ0520,CF0367,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,67,Selected long-wait transition
+INJ0521,CF0369,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,71,Selected long-wait transition
+INJ0522,CF0370,Extended_Duration,Extend_Activity,Triage,,,29,Activity duration sampled from extended range
+INJ0523,CF0370,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,34,Selected long-wait transition
+INJ0524,CF0375,Extended_Duration,Extend_Activity,Registration,,,27,Activity duration sampled from extended range
+INJ0525,CF0375,Long_Wait,Extend_Wait,,Registration,Triage,56,Selected long-wait transition
+INJ0526,CF0375,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,61,Selected long-wait transition
+INJ0527,CF0376,Extended_Duration,Extend_Activity,Doctor_Consultation,,,35,Activity duration sampled from extended range
+INJ0528,CF0377,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ0529,CF0377,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,60,Selected long-wait transition
+INJ0530,CF0378,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ0531,CF0379,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0532,CF0380,Long_Wait,Extend_Wait,,Registration,Triage,52,Selected long-wait transition
+INJ0533,CF0380,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0534,CF0380,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,71,Selected long-wait transition
+INJ0535,CF0381,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,59,Selected long-wait transition
+INJ0536,CF0382,Long_Wait,Extend_Wait,,Registration,Triage,71,Selected long-wait transition
+INJ0537,CF0383,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0538,CF0383,Extended_Duration,Extend_Activity,Triage,,,24,Activity duration sampled from extended range
+INJ0539,CF0384,Long_Wait,Extend_Wait,,Registration,Triage,69,Selected long-wait transition
+INJ0540,CF0386,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,33,Selected long-wait transition
+INJ0541,CF0386,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,59,Selected long-wait transition
+INJ0542,CF0386,Long_Wait,Extend_Wait,,Review_Results,Discharge,62,Selected long-wait transition
+INJ0543,CF0387,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,52,Selected long-wait transition
+INJ0544,CF0387,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0545,CF0388,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,47,Selected long-wait transition
+INJ0546,CF0390,Long_Wait,Extend_Wait,,Triage,Triage,46,Selected long-wait transition
+INJ0547,CF0393,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0548,CF0395,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ0549,CF0396,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,57,Selected long-wait transition
+INJ0550,CF0396,Extended_Duration,Extend_Activity,Doctor_Consultation,,,53,Activity duration sampled from extended range
+INJ0551,CF0398,Extended_Duration,Extend_Activity,Doctor_Consultation,,,60,Activity duration sampled from extended range
+INJ0552,CF0400,Extended_Duration,Extend_Activity,Doctor_Consultation,,,35,Activity duration sampled from extended range
+INJ0553,CF0405,Extended_Duration,Extend_Activity,Registration,,,21,Activity duration sampled from extended range
+INJ0554,CF0405,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,33,Selected long-wait transition
+INJ0555,CF0405,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0556,CF0407,Extended_Duration,Extend_Activity,Triage,,,20,Activity duration sampled from extended range
+INJ0557,CF0408,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,63,Selected long-wait transition
+INJ0558,CF0409,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,76,Selected long-wait transition
+INJ0559,CF0409,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,36,Selected long-wait transition
+INJ0560,CF0410,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,59,Selected long-wait transition
+INJ0561,CF0412,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0562,CF0413,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,76,Selected long-wait transition
+INJ0563,CF0413,Extended_Duration,Extend_Activity,Doctor_Consultation,,,41,Activity duration sampled from extended range
+INJ0564,CF0418,Long_Wait,Extend_Wait,,Registration,Triage,56,Selected long-wait transition
+INJ0565,CF0420,Long_Wait,Extend_Wait,,Registration,Triage,71,Selected long-wait transition
+INJ0566,CF0420,Extended_Duration,Extend_Activity,Doctor_Consultation,,,54,Activity duration sampled from extended range
+INJ0567,CF0420,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,35,Selected long-wait transition
+INJ0568,CF0421,Extended_Duration,Extend_Activity,Diagnostic_Test,,,43,Activity duration sampled from extended range
+INJ0569,CF0421,Long_Wait,Extend_Wait,,Review_Results,Discharge,51,Selected long-wait transition
+INJ0570,CF0422,Long_Wait,Extend_Wait,,Registration,Triage,63,Selected long-wait transition
+INJ0571,CF0422,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ0572,CF0423,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,49,Selected long-wait transition
+INJ0573,CF0425,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,38,Selected long-wait transition
+INJ0574,CF0426,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,44,Selected long-wait transition
+INJ0575,CF0427,Extended_Duration,Extend_Activity,Registration,,,28,Activity duration sampled from extended range
+INJ0576,CF0427,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0577,CF0428,Extended_Duration,Extend_Activity,Triage,,,30,Activity duration sampled from extended range
+INJ0578,CF0428,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,39,Selected long-wait transition
+INJ0579,CF0428,Extended_Duration,Extend_Activity,Doctor_Consultation,,,46,Activity duration sampled from extended range
+INJ0580,CF0429,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,63,Selected long-wait transition
+INJ0581,CF0430,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,54,Selected long-wait transition
+INJ0582,CF0431,Long_Wait,Extend_Wait,,Registration,Triage,64,Selected long-wait transition
+INJ0583,CF0431,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,43,Selected long-wait transition
+INJ0584,CF0431,Long_Wait,Extend_Wait,,Review_Results,Discharge,61,Selected long-wait transition
+INJ0585,CF0432,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0586,CF0434,Extended_Duration,Extend_Activity,Registration,,,22,Activity duration sampled from extended range
+INJ0587,CF0434,Extended_Duration,Extend_Activity,Doctor_Consultation,,,53,Activity duration sampled from extended range
+INJ0588,CF0439,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,69,Selected long-wait transition
+INJ0589,CF0439,Extended_Duration,Extend_Activity,Doctor_Consultation,,,47,Activity duration sampled from extended range
+INJ0590,CF0442,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0591,CF0444,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ0592,CF0446,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0593,CF0447,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0594,CF0448,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0595,CF0449,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,72,Selected long-wait transition
+INJ0596,CF0449,Extended_Duration,Extend_Activity,Doctor_Consultation,,,39,Activity duration sampled from extended range
+INJ0597,CF0450,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0598,CF0453,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,44,Selected long-wait transition
+INJ0599,CF0455,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,39,Selected long-wait transition
+INJ0600,CF0457,Extended_Duration,Extend_Activity,Doctor_Consultation,,,59,Activity duration sampled from extended range
+INJ0601,CF0459,Long_Wait,Extend_Wait,,Registration,Triage,45,Selected long-wait transition
+INJ0602,CF0459,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,48,Selected long-wait transition
+INJ0603,CF0460,Extended_Duration,Extend_Activity,Registration,,,24,Activity duration sampled from extended range
+INJ0604,CF0461,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0605,CF0462,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,59,Selected long-wait transition
+INJ0606,CF0464,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,53,Selected long-wait transition
+INJ0607,CF0465,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0608,CF0466,Extended_Duration,Extend_Activity,Discharge,,,16,Activity duration sampled from extended range
+INJ0609,CF0468,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,63,Selected long-wait transition
+INJ0610,CF0470,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,59,Selected long-wait transition
+INJ0611,CF0470,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,81,Selected long-wait transition
+INJ0612,CF0471,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,77,Selected long-wait transition
+INJ0613,CF0473,Long_Wait,Extend_Wait,,Registration,Triage,44,Selected long-wait transition
+INJ0614,CF0478,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0615,CF0481,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,62,Selected long-wait transition
+INJ0616,CF0482,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0617,CF0482,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,78,Selected long-wait transition
+INJ0618,CF0484,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,62,Selected long-wait transition
+INJ0619,CF0485,Extended_Duration,Extend_Activity,Diagnostic_Test,,,50,Activity duration sampled from extended range
+INJ0620,CF0485,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0621,CF0486,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,43,Selected long-wait transition
+INJ0622,CF0487,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,73,Selected long-wait transition
+INJ0623,CF0488,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0624,CF0489,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0625,CF0490,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,47,Selected long-wait transition
+INJ0626,CF0491,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,63,Selected long-wait transition
+INJ0627,CF0492,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0628,CF0493,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,45,Selected long-wait transition
+INJ0629,CF0493,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,84,Selected long-wait transition
+INJ0630,CF0496,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,46,Selected long-wait transition
+INJ0631,CF0497,Extended_Duration,Extend_Activity,Registration,,,22,Activity duration sampled from extended range
+INJ0632,CF0498,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ0633,CF0499,Extended_Duration,Extend_Activity,Registration,,,23,Activity duration sampled from extended range
+INJ0634,CF0499,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0635,CF0500,Extended_Duration,Extend_Activity,Registration,,,30,Activity duration sampled from extended range
+INJ0636,CF0500,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0637,CF0504,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,54,Selected long-wait transition
+INJ0638,CF0506,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,35,Selected long-wait transition
+INJ0639,CF0507,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,63,Selected long-wait transition
+INJ0640,CF0507,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ0641,CF0508,Extended_Duration,Extend_Activity,Registration,,,30,Activity duration sampled from extended range
+INJ0642,CF0508,Extended_Duration,Extend_Activity,Triage,,,29,Activity duration sampled from extended range
+INJ0643,CF0510,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,52,Selected long-wait transition
+INJ0644,CF0512,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,78,Selected long-wait transition
+INJ0645,CF0512,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0646,CF0513,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0647,CF0514,Extended_Duration,Extend_Activity,Registration,,,22,Activity duration sampled from extended range
+INJ0648,CF0516,Extended_Duration,Extend_Activity,Registration,,,18,Activity duration sampled from extended range
+INJ0649,CF0518,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,52,Selected long-wait transition
+INJ0650,CF0520,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,68,Selected long-wait transition
+INJ0651,CF0520,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ0652,CF0521,Extended_Duration,Extend_Activity,Triage,,,28,Activity duration sampled from extended range
+INJ0653,CF0522,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,36,Selected long-wait transition
+INJ0654,CF0523,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ0655,CF0523,Extended_Duration,Extend_Activity,Doctor_Consultation,,,35,Activity duration sampled from extended range
+INJ0656,CF0524,Extended_Duration,Extend_Activity,Registration,,,28,Activity duration sampled from extended range
+INJ0657,CF0524,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,78,Selected long-wait transition
+INJ0658,CF0525,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,80,Selected long-wait transition
+INJ0659,CF0525,Extended_Duration,Extend_Activity,Doctor_Consultation,,,41,Activity duration sampled from extended range
+INJ0660,CF0526,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,58,Selected long-wait transition
+INJ0661,CF0529,Extended_Duration,Extend_Activity,Doctor_Consultation,,,43,Activity duration sampled from extended range
+INJ0662,CF0530,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,46,Selected long-wait transition
+INJ0663,CF0530,Extended_Duration,Extend_Activity,Review_Results,,,30,Activity duration sampled from extended range
+INJ0664,CF0531,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ0665,CF0531,Long_Wait,Extend_Wait,,Review_Results,Discharge,52,Selected long-wait transition
+INJ0666,CF0532,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ0667,CF0533,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,62,Selected long-wait transition
+INJ0668,CF0534,Long_Wait,Extend_Wait,,Registration,Triage,59,Selected long-wait transition
+INJ0669,CF0534,Long_Wait,Extend_Wait,,Triage,Triage,68,Selected long-wait transition
+INJ0670,CF0534,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ0671,CF0536,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,49,Selected long-wait transition
+INJ0672,CF0539,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0673,CF0540,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0674,CF0540,Long_Wait,Extend_Wait,,Registration,Triage,72,Selected long-wait transition
+INJ0675,CF0540,Extended_Duration,Extend_Activity,Diagnostic_Test,,,37,Activity duration sampled from extended range
+INJ0676,CF0541,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,67,Selected long-wait transition
+INJ0677,CF0542,Extended_Duration,Extend_Activity,Doctor_Consultation,,,53,Activity duration sampled from extended range
+INJ0678,CF0542,Extended_Duration,Extend_Activity,Diagnostic_Test,,,52,Activity duration sampled from extended range
+INJ0679,CF0542,Extended_Duration,Extend_Activity,Review_Results,,,22,Activity duration sampled from extended range
+INJ0680,CF0543,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,44,Selected long-wait transition
+INJ0681,CF0544,Extended_Duration,Extend_Activity,Registration,,,25,Activity duration sampled from extended range
+INJ0682,CF0544,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0683,CF0544,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,37,Selected long-wait transition
+INJ0684,CF0545,Long_Wait,Extend_Wait,,Registration,Triage,74,Selected long-wait transition
+INJ0685,CF0545,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0686,CF0546,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0687,CF0546,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,48,Selected long-wait transition
+INJ0688,CF0547,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,82,Selected long-wait transition
+INJ0689,CF0548,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0690,CF0548,Long_Wait,Extend_Wait,,Registration,Triage,56,Selected long-wait transition
+INJ0691,CF0548,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,66,Selected long-wait transition
+INJ0692,CF0551,Extended_Duration,Extend_Activity,Triage,,,20,Activity duration sampled from extended range
+INJ0693,CF0551,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,60,Selected long-wait transition
+INJ0694,CF0551,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0695,CF0552,Long_Wait,Extend_Wait,,Registration,Triage,58,Selected long-wait transition
+INJ0696,CF0552,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,53,Selected long-wait transition
+INJ0697,CF0553,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,49,Selected long-wait transition
+INJ0698,CF0554,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0699,CF0559,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ0700,CF0560,Long_Wait,Extend_Wait,,Registration,Triage,42,Selected long-wait transition
+INJ0701,CF0560,Extended_Duration,Extend_Activity,Triage,,,28,Activity duration sampled from extended range
+INJ0702,CF0561,Long_Wait,Extend_Wait,,Triage,Triage,43,Selected long-wait transition
+INJ0703,CF0562,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,42,Selected long-wait transition
+INJ0704,CF0563,Long_Wait,Extend_Wait,,Registration,Triage,66,Selected long-wait transition
+INJ0705,CF0563,Extended_Duration,Extend_Activity,Triage,,,26,Activity duration sampled from extended range
+INJ0706,CF0564,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0707,CF0564,Extended_Duration,Extend_Activity,Doctor_Consultation,,,33,Activity duration sampled from extended range
+INJ0708,CF0564,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,56,Selected long-wait transition
+INJ0709,CF0565,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0710,CF0566,Extended_Duration,Extend_Activity,Doctor_Consultation,,,51,Activity duration sampled from extended range
+INJ0711,CF0566,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,46,Selected long-wait transition
+INJ0712,CF0568,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,56,Selected long-wait transition
+INJ0713,CF0569,Extended_Duration,Extend_Activity,Registration,,,19,Activity duration sampled from extended range
+INJ0714,CF0569,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,83,Selected long-wait transition
+INJ0715,CF0570,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,76,Selected long-wait transition
+INJ0716,CF0571,Extended_Duration,Extend_Activity,Registration,,,21,Activity duration sampled from extended range
+INJ0717,CF0571,Long_Wait,Extend_Wait,,Registration,Triage,82,Selected long-wait transition
+INJ0718,CF0571,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,45,Selected long-wait transition
+INJ0719,CF0571,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,45,Selected long-wait transition
+INJ0720,CF0571,Extended_Duration,Extend_Activity,Review_Results,,,25,Activity duration sampled from extended range
+INJ0721,CF0572,Long_Wait,Extend_Wait,,Registration,Triage,42,Selected long-wait transition
+INJ0722,CF0572,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,45,Selected long-wait transition
+INJ0723,CF0572,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,58,Selected long-wait transition
+INJ0724,CF0572,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0725,CF0574,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,51,Selected long-wait transition
+INJ0726,CF0575,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,49,Selected long-wait transition
+INJ0727,CF0577,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,42,Selected long-wait transition
+INJ0728,CF0580,Extended_Duration,Extend_Activity,Doctor_Consultation,,,35,Activity duration sampled from extended range
+INJ0729,CF0581,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,49,Selected long-wait transition
+INJ0730,CF0581,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0731,CF0583,Extended_Duration,Extend_Activity,Triage,,,23,Activity duration sampled from extended range
+INJ0732,CF0583,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0733,CF0583,Extended_Duration,Extend_Activity,Doctor_Consultation,,,44,Activity duration sampled from extended range
+INJ0734,CF0584,Long_Wait,Extend_Wait,,Registration,Triage,45,Selected long-wait transition
+INJ0735,CF0584,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0736,CF0585,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0737,CF0586,Extended_Duration,Extend_Activity,Review_Results,,,24,Activity duration sampled from extended range
+INJ0738,CF0587,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,57,Selected long-wait transition
+INJ0739,CF0589,Extended_Duration,Extend_Activity,Triage,,,27,Activity duration sampled from extended range
+INJ0740,CF0589,Extended_Duration,Extend_Activity,Doctor_Consultation,,,45,Activity duration sampled from extended range
+INJ0741,CF0593,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,76,Selected long-wait transition
+INJ0742,CF0593,Extended_Duration,Extend_Activity,Doctor_Consultation,,,43,Activity duration sampled from extended range
+INJ0743,CF0593,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,68,Selected long-wait transition
+INJ0744,CF0596,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ0745,CF0597,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,46,Selected long-wait transition
+INJ0746,CF0597,Extended_Duration,Extend_Activity,Review_Results,,,25,Activity duration sampled from extended range
+INJ0747,CF0600,Extended_Duration,Extend_Activity,Review_Results,,,18,Activity duration sampled from extended range
+INJ0748,CF0601,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,71,Selected long-wait transition
+INJ0749,CF0601,Long_Wait,Extend_Wait,,Review_Results,Discharge,43,Selected long-wait transition
+INJ0750,CF0603,Long_Wait,Extend_Wait,,Registration,Triage,32,Selected long-wait transition
+INJ0751,CF0604,Long_Wait,Extend_Wait,,Registration,Triage,55,Selected long-wait transition
+INJ0752,CF0604,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,58,Selected long-wait transition
+INJ0753,CF0605,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0754,CF0606,Extended_Duration,Extend_Activity,Triage,,,29,Activity duration sampled from extended range
+INJ0755,CF0606,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,47,Selected long-wait transition
+INJ0756,CF0607,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0757,CF0607,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,34,Selected long-wait transition
+INJ0758,CF0613,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,49,Selected long-wait transition
+INJ0759,CF0613,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,43,Selected long-wait transition
+INJ0760,CF0615,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0761,CF0615,Extended_Duration,Extend_Activity,Doctor_Consultation,,,34,Activity duration sampled from extended range
+INJ0762,CF0618,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,64,Selected long-wait transition
+INJ0763,CF0620,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,61,Selected long-wait transition
+INJ0764,CF0622,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,68,Selected long-wait transition
+INJ0765,CF0622,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,45,Selected long-wait transition
+INJ0766,CF0622,Long_Wait,Extend_Wait,,Review_Results,Discharge,45,Selected long-wait transition
+INJ0767,CF0622,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ0768,CF0623,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ0769,CF0623,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,62,Selected long-wait transition
+INJ0770,CF0625,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0771,CF0625,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,44,Selected long-wait transition
+INJ0772,CF0626,Extended_Duration,Extend_Activity,Registration,,,23,Activity duration sampled from extended range
+INJ0773,CF0629,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0774,CF0629,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,47,Selected long-wait transition
+INJ0775,CF0629,Extended_Duration,Extend_Activity,Diagnostic_Test,,,37,Activity duration sampled from extended range
+INJ0776,CF0630,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,56,Selected long-wait transition
+INJ0777,CF0631,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ0778,CF0631,Extended_Duration,Extend_Activity,Doctor_Consultation,,,31,Activity duration sampled from extended range
+INJ0779,CF0632,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,63,Selected long-wait transition
+INJ0780,CF0633,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,34,Selected long-wait transition
+INJ0781,CF0633,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,42,Selected long-wait transition
+INJ0782,CF0639,Long_Wait,Extend_Wait,,Registration,Triage,37,Selected long-wait transition
+INJ0783,CF0640,Extended_Duration,Extend_Activity,Registration,,,23,Activity duration sampled from extended range
+INJ0784,CF0640,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,44,Selected long-wait transition
+INJ0785,CF0640,Extended_Duration,Extend_Activity,Diagnostic_Test,,,54,Activity duration sampled from extended range
+INJ0786,CF0641,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,64,Selected long-wait transition
+INJ0787,CF0643,Long_Wait,Extend_Wait,,Registration,Triage,52,Selected long-wait transition
+INJ0788,CF0643,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,38,Selected long-wait transition
+INJ0789,CF0644,Extended_Duration,Extend_Activity,Triage,,,20,Activity duration sampled from extended range
+INJ0790,CF0644,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,42,Selected long-wait transition
+INJ0791,CF0645,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,37,Selected long-wait transition
+INJ0792,CF0646,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,79,Selected long-wait transition
+INJ0793,CF0646,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0794,CF0648,Long_Wait,Extend_Wait,,Registration,Triage,43,Selected long-wait transition
+INJ0795,CF0648,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,65,Selected long-wait transition
+INJ0796,CF0649,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,72,Selected long-wait transition
+INJ0797,CF0649,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0798,CF0651,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,65,Selected long-wait transition
+INJ0799,CF0654,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,57,Selected long-wait transition
+INJ0800,CF0655,Extended_Duration,Extend_Activity,Doctor_Consultation,,,60,Activity duration sampled from extended range
+INJ0801,CF0655,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,43,Selected long-wait transition
+INJ0802,CF0657,Extended_Duration,Extend_Activity,Triage,,,25,Activity duration sampled from extended range
+INJ0803,CF0659,Long_Wait,Extend_Wait,,Registration,Triage,38,Selected long-wait transition
+INJ0804,CF0659,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,64,Selected long-wait transition
+INJ0805,CF0660,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,66,Selected long-wait transition
+INJ0806,CF0660,Extended_Duration,Extend_Activity,Doctor_Consultation,,,53,Activity duration sampled from extended range
+INJ0807,CF0660,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,72,Selected long-wait transition
+INJ0808,CF0660,Extended_Duration,Extend_Activity,Review_Results,,,30,Activity duration sampled from extended range
+INJ0809,CF0661,Extended_Duration,Extend_Activity,Triage,,,27,Activity duration sampled from extended range
+INJ0810,CF0662,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0811,CF0663,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ0812,CF0663,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0813,CF0664,Extended_Duration,Extend_Activity,Doctor_Consultation,,,42,Activity duration sampled from extended range
+INJ0814,CF0668,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,85,Selected long-wait transition
+INJ0815,CF0669,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,57,Selected long-wait transition
+INJ0816,CF0669,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,54,Selected long-wait transition
+INJ0817,CF0671,Long_Wait,Extend_Wait,,Registration,Triage,44,Selected long-wait transition
+INJ0818,CF0672,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0819,CF0674,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ0820,CF0674,Extended_Duration,Extend_Activity,Triage,,,26,Activity duration sampled from extended range
+INJ0821,CF0674,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,46,Selected long-wait transition
+INJ0822,CF0676,Extended_Duration,Extend_Activity,Diagnostic_Test,,,36,Activity duration sampled from extended range
+INJ0823,CF0676,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,56,Selected long-wait transition
+INJ0824,CF0676,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0825,CF0677,Extended_Duration,Extend_Activity,Registration,,,19,Activity duration sampled from extended range
+INJ0826,CF0677,Long_Wait,Extend_Wait,,Registration,Triage,43,Selected long-wait transition
+INJ0827,CF0679,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0828,CF0682,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0829,CF0683,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0830,CF0684,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,66,Selected long-wait transition
+INJ0831,CF0684,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,43,Selected long-wait transition
+INJ0832,CF0685,Long_Wait,Extend_Wait,,Registration,Triage,51,Selected long-wait transition
+INJ0833,CF0686,Long_Wait,Extend_Wait,,Registration,Triage,43,Selected long-wait transition
+INJ0834,CF0689,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,58,Selected long-wait transition
+INJ0835,CF0690,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ0836,CF0690,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,65,Selected long-wait transition
+INJ0837,CF0690,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0838,CF0691,Long_Wait,Extend_Wait,,Registration,Triage,70,Selected long-wait transition
+INJ0839,CF0691,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0840,CF0692,Extended_Duration,Extend_Activity,Triage,,,26,Activity duration sampled from extended range
+INJ0841,CF0692,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0842,CF0694,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,49,Selected long-wait transition
+INJ0843,CF0695,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,75,Selected long-wait transition
+INJ0844,CF0696,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0845,CF0697,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,61,Selected long-wait transition
+INJ0846,CF0699,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,45,Selected long-wait transition
+INJ0847,CF0700,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,78,Selected long-wait transition
+INJ0848,CF0701,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,64,Selected long-wait transition
+INJ0849,CF0701,Extended_Duration,Extend_Activity,Doctor_Consultation,,,42,Activity duration sampled from extended range
+INJ0850,CF0701,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,41,Selected long-wait transition
+INJ0851,CF0704,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,67,Selected long-wait transition
+INJ0852,CF0707,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,67,Selected long-wait transition
+INJ0853,CF0708,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0854,CF0708,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,54,Selected long-wait transition
+INJ0855,CF0709,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0856,CF0712,Long_Wait,Extend_Wait,,Registration,Triage,74,Selected long-wait transition
+INJ0857,CF0713,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,45,Selected long-wait transition
+INJ0858,CF0715,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0859,CF0715,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0860,CF0716,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,64,Selected long-wait transition
+INJ0861,CF0717,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0862,CF0719,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,34,Selected long-wait transition
+INJ0863,CF0720,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,63,Selected long-wait transition
+INJ0864,CF0722,Extended_Duration,Extend_Activity,Registration,,,18,Activity duration sampled from extended range
+INJ0865,CF0722,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,50,Selected long-wait transition
+INJ0866,CF0722,Extended_Duration,Extend_Activity,Discharge,,,20,Activity duration sampled from extended range
+INJ0867,CF0726,Extended_Duration,Extend_Activity,Registration,,,30,Activity duration sampled from extended range
+INJ0868,CF0726,Long_Wait,Extend_Wait,,Registration,Triage,44,Selected long-wait transition
+INJ0869,CF0726,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ0870,CF0727,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,45,Selected long-wait transition
+INJ0871,CF0727,Extended_Duration,Extend_Activity,Diagnostic_Test,,,54,Activity duration sampled from extended range
+INJ0872,CF0727,Extended_Duration,Extend_Activity,Review_Results,,,23,Activity duration sampled from extended range
+INJ0873,CF0731,Extended_Duration,Extend_Activity,Doctor_Consultation,,,31,Activity duration sampled from extended range
+INJ0874,CF0732,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0875,CF0733,Long_Wait,Extend_Wait,,Registration,Triage,37,Selected long-wait transition
+INJ0876,CF0735,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,56,Selected long-wait transition
+INJ0877,CF0735,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,67,Selected long-wait transition
+INJ0878,CF0736,Extended_Duration,Extend_Activity,Doctor_Consultation,,,49,Activity duration sampled from extended range
+INJ0879,CF0736,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,70,Selected long-wait transition
+INJ0880,CF0736,Extended_Duration,Extend_Activity,Review_Results,,,16,Activity duration sampled from extended range
+INJ0881,CF0738,Extended_Duration,Extend_Activity,Doctor_Consultation,,,50,Activity duration sampled from extended range
+INJ0882,CF0738,Extended_Duration,Extend_Activity,Diagnostic_Test,,,49,Activity duration sampled from extended range
+INJ0883,CF0738,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,46,Selected long-wait transition
+INJ0884,CF0740,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,61,Selected long-wait transition
+INJ0885,CF0741,Extended_Duration,Extend_Activity,Triage,,,27,Activity duration sampled from extended range
+INJ0886,CF0742,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0887,CF0742,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,35,Selected long-wait transition
+INJ0888,CF0743,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,74,Selected long-wait transition
+INJ0889,CF0743,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ0890,CF0745,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ0891,CF0745,Extended_Duration,Extend_Activity,Doctor_Consultation,,,48,Activity duration sampled from extended range
+INJ0892,CF0746,Long_Wait,Extend_Wait,,Registration,Triage,54,Selected long-wait transition
+INJ0893,CF0746,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,56,Selected long-wait transition
+INJ0894,CF0749,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ0895,CF0750,Extended_Duration,Extend_Activity,Registration,,,16,Activity duration sampled from extended range
+INJ0896,CF0750,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,45,Selected long-wait transition
+INJ0897,CF0750,Extended_Duration,Extend_Activity,Review_Results,,,25,Activity duration sampled from extended range
+INJ0898,CF0750,Long_Wait,Extend_Wait,,Review_Results,Discharge,80,Selected long-wait transition
+INJ0899,CF0751,Long_Wait,Extend_Wait,,Registration,Triage,72,Selected long-wait transition
+INJ0900,CF0753,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,48,Selected long-wait transition
+INJ0901,CF0754,Long_Wait,Extend_Wait,,Registration,Triage,48,Selected long-wait transition
+INJ0902,CF0754,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0903,CF0755,Extended_Duration,Extend_Activity,Registration,,,25,Activity duration sampled from extended range
+INJ0904,CF0755,Long_Wait,Extend_Wait,,Registration,Triage,50,Selected long-wait transition
+INJ0905,CF0755,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,38,Selected long-wait transition
+INJ0906,CF0756,Extended_Duration,Extend_Activity,Triage,,,20,Activity duration sampled from extended range
+INJ0907,CF0756,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ0908,CF0757,Long_Wait,Extend_Wait,,Review_Results,Discharge,49,Selected long-wait transition
+INJ0909,CF0758,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ0910,CF0759,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,50,Selected long-wait transition
+INJ0911,CF0760,Extended_Duration,Extend_Activity,Triage,,,25,Activity duration sampled from extended range
+INJ0912,CF0760,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ0913,CF0761,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0914,CF0763,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ0915,CF0763,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0916,CF0764,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,47,Selected long-wait transition
+INJ0917,CF0764,Extended_Duration,Extend_Activity,Review_Results,,,17,Activity duration sampled from extended range
+INJ0918,CF0766,Extended_Duration,Extend_Activity,Triage,,,25,Activity duration sampled from extended range
+INJ0919,CF0766,Extended_Duration,Extend_Activity,Diagnostic_Test,,,56,Activity duration sampled from extended range
+INJ0920,CF0768,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,78,Selected long-wait transition
+INJ0921,CF0770,Long_Wait,Extend_Wait,,Registration,Triage,68,Selected long-wait transition
+INJ0922,CF0770,Extended_Duration,Extend_Activity,Review_Results,,,29,Activity duration sampled from extended range
+INJ0923,CF0771,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,45,Selected long-wait transition
+INJ0924,CF0772,Extended_Duration,Extend_Activity,Registration,,,29,Activity duration sampled from extended range
+INJ0925,CF0772,Extended_Duration,Extend_Activity,Doctor_Consultation,,,58,Activity duration sampled from extended range
+INJ0926,CF0772,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,50,Selected long-wait transition
+INJ0927,CF0775,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,56,Selected long-wait transition
+INJ0928,CF0776,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ0929,CF0776,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,71,Selected long-wait transition
+INJ0930,CF0778,Long_Wait,Extend_Wait,,Triage,Triage,76,Selected long-wait transition
+INJ0931,CF0778,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,40,Selected long-wait transition
+INJ0932,CF0778,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,31,Selected long-wait transition
+INJ0933,CF0778,Extended_Duration,Extend_Activity,Review_Results,,,24,Activity duration sampled from extended range
+INJ0934,CF0779,Long_Wait,Extend_Wait,,Registration,Triage,71,Selected long-wait transition
+INJ0935,CF0781,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,43,Selected long-wait transition
+INJ0936,CF0782,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,51,Selected long-wait transition
+INJ0937,CF0782,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ0938,CF0783,Extended_Duration,Extend_Activity,Doctor_Consultation,,,45,Activity duration sampled from extended range
+INJ0939,CF0786,Long_Wait,Extend_Wait,,Registration,Triage,49,Selected long-wait transition
+INJ0940,CF0786,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0941,CF0786,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ0942,CF0787,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0943,CF0789,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,72,Selected long-wait transition
+INJ0944,CF0789,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,75,Selected long-wait transition
+INJ0945,CF0791,Extended_Duration,Extend_Activity,Doctor_Consultation,,,46,Activity duration sampled from extended range
+INJ0946,CF0791,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,43,Selected long-wait transition
+INJ0947,CF0792,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ0948,CF0793,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,72,Selected long-wait transition
+INJ0949,CF0797,Extended_Duration,Extend_Activity,Doctor_Consultation,,,58,Activity duration sampled from extended range
+INJ0950,CF0798,Extended_Duration,Extend_Activity,Diagnostic_Test,,,57,Activity duration sampled from extended range
+INJ0951,CF0799,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0952,CF0799,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,55,Selected long-wait transition
+INJ0953,CF0799,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,63,Selected long-wait transition
+INJ0954,CF0800,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,67,Selected long-wait transition
+INJ0955,CF0801,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,61,Selected long-wait transition
+INJ0956,CF0801,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,51,Selected long-wait transition
+INJ0957,CF0803,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,53,Selected long-wait transition
+INJ0958,CF0803,Extended_Duration,Extend_Activity,Discharge,,,14,Activity duration sampled from extended range
+INJ0959,CF0804,Extended_Duration,Extend_Activity,Registration,,,16,Activity duration sampled from extended range
+INJ0960,CF0805,Extended_Duration,Extend_Activity,Doctor_Consultation,,,48,Activity duration sampled from extended range
+INJ0961,CF0807,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ0962,CF0807,Extended_Duration,Extend_Activity,Diagnostic_Test,,,48,Activity duration sampled from extended range
+INJ0963,CF0809,Extended_Duration,Extend_Activity,Registration,,,22,Activity duration sampled from extended range
+INJ0964,CF0810,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,44,Selected long-wait transition
+INJ0965,CF0810,Extended_Duration,Extend_Activity,Discharge,,,11,Activity duration sampled from extended range
+INJ0966,CF0812,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,73,Selected long-wait transition
+INJ0967,CF0813,Extended_Duration,Extend_Activity,Registration,,,29,Activity duration sampled from extended range
+INJ0968,CF0815,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,74,Selected long-wait transition
+INJ0969,CF0819,Extended_Duration,Extend_Activity,Registration,,,21,Activity duration sampled from extended range
+INJ0970,CF0820,Extended_Duration,Extend_Activity,Discharge,,,15,Activity duration sampled from extended range
+INJ0971,CF0823,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ0972,CF0824,Extended_Duration,Extend_Activity,Diagnostic_Test,,,32,Activity duration sampled from extended range
+INJ0973,CF0826,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ0974,CF0826,Extended_Duration,Extend_Activity,Doctor_Consultation,,,51,Activity duration sampled from extended range
+INJ0975,CF0826,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,57,Selected long-wait transition
+INJ0976,CF0827,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,44,Selected long-wait transition
+INJ0977,CF0828,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,58,Selected long-wait transition
+INJ0978,CF0830,Long_Wait,Extend_Wait,,Registration,Triage,45,Selected long-wait transition
+INJ0979,CF0830,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,36,Selected long-wait transition
+INJ0980,CF0831,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,75,Selected long-wait transition
+INJ0981,CF0831,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,73,Selected long-wait transition
+INJ0982,CF0833,Extended_Duration,Extend_Activity,Registration,,,19,Activity duration sampled from extended range
+INJ0983,CF0833,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,46,Selected long-wait transition
+INJ0984,CF0833,Extended_Duration,Extend_Activity,Doctor_Consultation,,,53,Activity duration sampled from extended range
+INJ0985,CF0834,Extended_Duration,Extend_Activity,Review_Results,,,29,Activity duration sampled from extended range
+INJ0986,CF0835,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ0987,CF0838,Extended_Duration,Extend_Activity,Triage,,,23,Activity duration sampled from extended range
+INJ0988,CF0839,Long_Wait,Extend_Wait,,Review_Results,Discharge,76,Selected long-wait transition
+INJ0989,CF0840,Extended_Duration,Extend_Activity,Registration,,,30,Activity duration sampled from extended range
+INJ0990,CF0840,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,60,Selected long-wait transition
+INJ0991,CF0842,Long_Wait,Extend_Wait,,Registration,Triage,63,Selected long-wait transition
+INJ0992,CF0844,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ0993,CF0845,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,80,Selected long-wait transition
+INJ0994,CF0850,Extended_Duration,Extend_Activity,Triage,,,26,Activity duration sampled from extended range
+INJ0995,CF0850,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,50,Selected long-wait transition
+INJ0996,CF0851,Extended_Duration,Extend_Activity,Registration,,,21,Activity duration sampled from extended range
+INJ0997,CF0851,Long_Wait,Extend_Wait,,Registration,Triage,45,Selected long-wait transition
+INJ0998,CF0851,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ0999,CF0853,Extended_Duration,Extend_Activity,Registration,,,29,Activity duration sampled from extended range
+INJ1000,CF0854,Extended_Duration,Extend_Activity,Triage,,,24,Activity duration sampled from extended range
+INJ1001,CF0854,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,52,Selected long-wait transition
+INJ1002,CF0854,Extended_Duration,Extend_Activity,Doctor_Consultation,,,44,Activity duration sampled from extended range
+INJ1003,CF0855,Extended_Duration,Extend_Activity,Triage,,,21,Activity duration sampled from extended range
+INJ1004,CF0857,Extended_Duration,Extend_Activity,Triage,,,29,Activity duration sampled from extended range
+INJ1005,CF0859,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ1006,CF0860,Extended_Duration,Extend_Activity,Triage,,,21,Activity duration sampled from extended range
+INJ1007,CF0862,Extended_Duration,Extend_Activity,Doctor_Consultation,,,41,Activity duration sampled from extended range
+INJ1008,CF0863,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,40,Selected long-wait transition
+INJ1009,CF0863,Extended_Duration,Extend_Activity,Diagnostic_Test,,,59,Activity duration sampled from extended range
+INJ1010,CF0865,Extended_Duration,Extend_Activity,Triage,,,27,Activity duration sampled from extended range
+INJ1011,CF0866,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,38,Selected long-wait transition
+INJ1012,CF0866,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ1013,CF0869,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,60,Selected long-wait transition
+INJ1014,CF0872,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,74,Selected long-wait transition
+INJ1015,CF0874,Extended_Duration,Extend_Activity,Doctor_Consultation,,,56,Activity duration sampled from extended range
+INJ1016,CF0875,Extended_Duration,Extend_Activity,Doctor_Consultation,,,57,Activity duration sampled from extended range
+INJ1017,CF0876,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,40,Selected long-wait transition
+INJ1018,CF0876,Long_Wait,Extend_Wait,,Diagnostic_Test,Diagnostic_Test,71,Selected long-wait transition
+INJ1019,CF0877,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,79,Selected long-wait transition
+INJ1020,CF0878,Extended_Duration,Extend_Activity,Diagnostic_Test,,,47,Activity duration sampled from extended range
+INJ1021,CF0879,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,68,Selected long-wait transition
+INJ1022,CF0880,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,45,Selected long-wait transition
+INJ1023,CF0881,Extended_Duration,Extend_Activity,Diagnostic_Test,,,48,Activity duration sampled from extended range
+INJ1024,CF0881,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,68,Selected long-wait transition
+INJ1025,CF0882,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,34,Selected long-wait transition
+INJ1026,CF0884,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,50,Selected long-wait transition
+INJ1027,CF0885,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,36,Selected long-wait transition
+INJ1028,CF0886,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ1029,CF0887,Extended_Duration,Extend_Activity,Registration,,,25,Activity duration sampled from extended range
+INJ1030,CF0889,Extended_Duration,Extend_Activity,Triage,,,20,Activity duration sampled from extended range
+INJ1031,CF0889,Extended_Duration,Extend_Activity,Discharge,,,17,Activity duration sampled from extended range
+INJ1032,CF0891,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ1033,CF0892,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,62,Selected long-wait transition
+INJ1034,CF0892,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,58,Selected long-wait transition
+INJ1035,CF0892,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,57,Selected long-wait transition
+INJ1036,CF0893,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,37,Selected long-wait transition
+INJ1037,CF0895,Long_Wait,Extend_Wait,,Registration,Triage,48,Selected long-wait transition
+INJ1038,CF0896,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ1039,CF0897,Long_Wait,Extend_Wait,,Review_Results,Discharge,38,Selected long-wait transition
+INJ1040,CF0900,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ1041,CF0901,Extended_Duration,Extend_Activity,Review_Results,,,27,Activity duration sampled from extended range
+INJ1042,CF0902,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,39,Selected long-wait transition
+INJ1043,CF0904,Long_Wait,Extend_Wait,,Registration,Triage,87,Selected long-wait transition
+INJ1044,CF0904,Extended_Duration,Extend_Activity,Triage,,,23,Activity duration sampled from extended range
+INJ1045,CF0907,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,36,Selected long-wait transition
+INJ1046,CF0907,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,74,Selected long-wait transition
+INJ1047,CF0907,Extended_Duration,Extend_Activity,Diagnostic_Test,,,48,Activity duration sampled from extended range
+INJ1048,CF0908,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ1049,CF0909,Extended_Duration,Extend_Activity,Registration,,,19,Activity duration sampled from extended range
+INJ1050,CF0909,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,61,Selected long-wait transition
+INJ1051,CF0910,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,46,Selected long-wait transition
+INJ1052,CF0911,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,67,Selected long-wait transition
+INJ1053,CF0911,Extended_Duration,Extend_Activity,Doctor_Consultation,,,51,Activity duration sampled from extended range
+INJ1054,CF0911,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,41,Selected long-wait transition
+INJ1055,CF0911,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ1056,CF0912,Extended_Duration,Extend_Activity,Doctor_Consultation,,,35,Activity duration sampled from extended range
+INJ1057,CF0915,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ1058,CF0920,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,39,Selected long-wait transition
+INJ1059,CF0922,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,63,Selected long-wait transition
+INJ1060,CF0924,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,56,Selected long-wait transition
+INJ1061,CF0925,Long_Wait,Extend_Wait,,Registration,Triage,46,Selected long-wait transition
+INJ1062,CF0925,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,49,Selected long-wait transition
+INJ1063,CF0927,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,70,Selected long-wait transition
+INJ1064,CF0927,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,47,Selected long-wait transition
+INJ1065,CF0930,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,69,Selected long-wait transition
+INJ1066,CF0931,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,60,Selected long-wait transition
+INJ1067,CF0931,Extended_Duration,Extend_Activity,Doctor_Consultation,,,54,Activity duration sampled from extended range
+INJ1068,CF0932,Extended_Duration,Extend_Activity,Triage,,,16,Activity duration sampled from extended range
+INJ1069,CF0932,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,40,Selected long-wait transition
+INJ1070,CF0932,Extended_Duration,Extend_Activity,Discharge,,,13,Activity duration sampled from extended range
+INJ1071,CF0935,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,43,Selected long-wait transition
+INJ1072,CF0935,Extended_Duration,Extend_Activity,Review_Results,,,18,Activity duration sampled from extended range
+INJ1073,CF0937,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ1074,CF0937,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ1075,CF0939,Extended_Duration,Extend_Activity,Doctor_Consultation,,,46,Activity duration sampled from extended range
+INJ1076,CF0940,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,54,Selected long-wait transition
+INJ1077,CF0941,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,52,Selected long-wait transition
+INJ1078,CF0944,Extended_Duration,Extend_Activity,Doctor_Consultation,,,39,Activity duration sampled from extended range
+INJ1079,CF0945,Extended_Duration,Extend_Activity,Registration,,,16,Activity duration sampled from extended range
+INJ1080,CF0945,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,46,Selected long-wait transition
+INJ1081,CF0945,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,55,Selected long-wait transition
+INJ1082,CF0945,Extended_Duration,Extend_Activity,Review_Results,,,25,Activity duration sampled from extended range
+INJ1083,CF0946,Extended_Duration,Extend_Activity,Triage,,,27,Activity duration sampled from extended range
+INJ1084,CF0947,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,55,Selected long-wait transition
+INJ1085,CF0948,Extended_Duration,Extend_Activity,Discharge,,,18,Activity duration sampled from extended range
+INJ1086,CF0949,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ1087,CF0949,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,56,Selected long-wait transition
+INJ1088,CF0949,Extended_Duration,Extend_Activity,Doctor_Consultation,,,56,Activity duration sampled from extended range
+INJ1089,CF0949,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,64,Selected long-wait transition
+INJ1090,CF0949,Extended_Duration,Extend_Activity,Review_Results,,,23,Activity duration sampled from extended range
+INJ1091,CF0950,Extended_Duration,Extend_Activity,Registration,,,24,Activity duration sampled from extended range
+INJ1092,CF0950,Long_Wait,Extend_Wait,,Registration,Triage,52,Selected long-wait transition
+INJ1093,CF0950,Extended_Duration,Extend_Activity,Triage,,,22,Activity duration sampled from extended range
+INJ1094,CF0955,Long_Wait,Extend_Wait,,Registration,Triage,36,Selected long-wait transition
+INJ1095,CF0957,Extended_Duration,Extend_Activity,Diagnostic_Test,,,40,Activity duration sampled from extended range
+INJ1096,CF0957,Extended_Duration,Extend_Activity,Doctor_Consultation,,,49,Activity duration sampled from extended range
+INJ1097,CF0959,Extended_Duration,Extend_Activity,Registration,,,17,Activity duration sampled from extended range
+INJ1098,CF0960,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ1099,CF0960,Extended_Duration,Extend_Activity,Doctor_Consultation,,,31,Activity duration sampled from extended range
+INJ1100,CF0961,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,39,Selected long-wait transition
+INJ1101,CF0961,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,32,Selected long-wait transition
+INJ1102,CF0961,Long_Wait,Extend_Wait,,Review_Results,Doctor_Consultation,39,Selected long-wait transition
+INJ1103,CF0962,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,55,Selected long-wait transition
+INJ1104,CF0963,Extended_Duration,Extend_Activity,Doctor_Consultation,,,60,Activity duration sampled from extended range
+INJ1105,CF0966,Extended_Duration,Extend_Activity,Triage,,,18,Activity duration sampled from extended range
+INJ1106,CF0967,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,36,Selected long-wait transition
+INJ1107,CF0967,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,53,Selected long-wait transition
+INJ1108,CF0968,Extended_Duration,Extend_Activity,Doctor_Consultation,,,40,Activity duration sampled from extended range
+INJ1109,CF0968,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,39,Selected long-wait transition
+INJ1110,CF0968,Long_Wait,Extend_Wait,,Review_Results,Discharge,40,Selected long-wait transition
+INJ1111,CF0969,Extended_Duration,Extend_Activity,Doctor_Consultation,,,52,Activity duration sampled from extended range
+INJ1112,CF0970,Extended_Duration,Extend_Activity,Triage,,,17,Activity duration sampled from extended range
+INJ1113,CF0970,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,39,Selected long-wait transition
+INJ1114,CF0971,Long_Wait,Extend_Wait,,Registration,Triage,45,Selected long-wait transition
+INJ1115,CF0972,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ1116,CF0973,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,80,Selected long-wait transition
+INJ1117,CF0973,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,55,Selected long-wait transition
+INJ1118,CF0973,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,60,Selected long-wait transition
+INJ1119,CF0976,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,67,Selected long-wait transition
+INJ1120,CF0977,Long_Wait,Extend_Wait,,Registration,Triage,59,Selected long-wait transition
+INJ1121,CF0977,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,64,Selected long-wait transition
+INJ1122,CF0977,Extended_Duration,Extend_Activity,Diagnostic_Test,,,43,Activity duration sampled from extended range
+INJ1123,CF0979,Long_Wait,Extend_Wait,,Registration,Triage,71,Selected long-wait transition
+INJ1124,CF0979,Extended_Duration,Extend_Activity,Triage,,,29,Activity duration sampled from extended range
+INJ1125,CF0979,Long_Wait,Extend_Wait,,Review_Results,Discharge,63,Selected long-wait transition
+INJ1126,CF0980,Extended_Duration,Extend_Activity,Triage,,,19,Activity duration sampled from extended range
+INJ1127,CF0980,Extended_Duration,Extend_Activity,Review_Results,,,27,Activity duration sampled from extended range
+INJ1128,CF0982,Long_Wait,Extend_Wait,,Registration,Triage,42,Selected long-wait transition
+INJ1129,CF0984,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,41,Selected long-wait transition
+INJ1130,CF0984,Extended_Duration,Extend_Activity,Discharge,,,19,Activity duration sampled from extended range
+INJ1131,CF0985,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,64,Selected long-wait transition
+INJ1132,CF0986,Extended_Duration,Extend_Activity,Registration,,,30,Activity duration sampled from extended range
+INJ1133,CF0989,Extended_Duration,Extend_Activity,Discharge,,,12,Activity duration sampled from extended range
+INJ1134,CF0990,Long_Wait,Extend_Wait,,Registration,Triage,32,Selected long-wait transition
+INJ1135,CF0991,Extended_Duration,Extend_Activity,Registration,,,20,Activity duration sampled from extended range
+INJ1136,CF0992,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,50,Selected long-wait transition
+INJ1137,CF0994,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,45,Selected long-wait transition
+INJ1138,CF0995,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,85,Selected long-wait transition
+INJ1139,CF0996,Long_Wait,Extend_Wait,,Doctor_Consultation,Diagnostic_Test,59,Selected long-wait transition
+INJ1140,CF0996,Long_Wait,Extend_Wait,,Diagnostic_Test,Review_Results,37,Selected long-wait transition
+INJ1141,CF0997,Long_Wait,Extend_Wait,,Triage,Doctor_Consultation,43,Selected long-wait transition
+INJ1142,CF0997,Extended_Duration,Extend_Activity,Doctor_Consultation,,,49,Activity duration sampled from extended range
+INJ1143,CF1000,Long_Wait,Extend_Wait,,Doctor_Consultation,Discharge,54,Selected long-wait transition
