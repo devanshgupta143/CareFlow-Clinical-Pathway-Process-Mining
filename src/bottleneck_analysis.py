@@ -12,14 +12,13 @@ def analyze_bottlenecks(df):
     print(f"Longest single patient stay: {(max(case_durations) / 3600):.2f} hours\n")
 
     # 2. Find the slowest transitions between activities
-    # This calculates the time between every pair of steps (e.g., Admission -> Triage)
     performance_dfg = pm4py.discover_performance_dfg(df)
     
-    # Sort the transitions by average time (descending) to find the biggest bottlenecks
-    # performance_dfg[1] contains the times, performance_dfg[0] contains the (source, target) pairs
     transitions_with_time = []
-    for pair, time_stats in performance_dfg[1].items():
-        mean_time_hours = time_stats['mean'] / 3600
+    
+    # In newer PM4Py versions, performance_dfg[1] maps the pair directly to the mean time (in seconds)
+    for pair, mean_time_seconds in performance_dfg[1].items():
+        mean_time_hours = mean_time_seconds / 3600
         transitions_with_time.append((pair, mean_time_hours))
         
     # Sort the list to show the top 5 slowest steps
@@ -32,7 +31,7 @@ def analyze_bottlenecks(df):
         print(f"{i+1}. {source_activity} -> {target_activity}: {time_hours:.2f} hours on average")
 
 if __name__ == "__main__":
-    # Load the data we generated earlier
+    # Load the data
     df = load_event_log('../data/sepsis_log.csv')
     
     # Run the analysis
