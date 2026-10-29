@@ -10,3 +10,4 @@ Day 12 - Commit 1: Created dedicated Rework & Variant Analysis page with header 
 Day 12 - Commit 2: Added department rework breakdown bar chart visual.
 Day 12 - Commit 3: Added repeat activity frequency matrix and loop diagnostics.
 Created dedicated Rework & Variant Analysis page with header summary.
+Added department rework breakdown bar chart visual.
