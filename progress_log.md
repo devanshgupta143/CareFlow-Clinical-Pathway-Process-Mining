@@ -12,3 +12,4 @@ Day 12 - Commit 3: Added repeat activity frequency matrix and loop diagnostics.
 Created dedicated Rework & Variant Analysis page with header summary.
 Added department rework breakdown bar chart visual.
 Added repeat activity frequency matrix and loop diagnostics.Implemented DAX measures for Pathway Lead Time and stage transition durations.
+Added stage-to-stage transition lead time visuals to identify path delays.
