@@ -1,0 +1,227 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "3ce5daa5710de06a84d5",
+  "position": {
+    "x": 16,
+    "y": 624,
+    "z": 8,
+    "height": 440,
+    "width": 1888,
+    "tabOrder": 8
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mock_hospital_logs"
+                    }
+                  },
+                  "Property": "Activity_Name"
+                }
+              },
+              "queryRef": "mock_hospital_logs.Activity_Name",
+              "nativeQueryRef": "Activity_Name",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mock_hospital_logs"
+                    }
+                  },
+                  "Property": "Department"
+                }
+              },
+              "queryRef": "mock_hospital_logs.Department",
+              "nativeQueryRef": "Department",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mock_hospital_logs"
+                    }
+                  },
+                  "Property": "Avg Staging Time Hours"
+                }
+              },
+              "queryRef": "mock_hospital_logs.Avg Staging Time Hours",
+              "nativeQueryRef": "Avg Staging Time Hours"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "FillRule": {
+                      "Input": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "mock_hospital_logs"
+                            }
+                          },
+                          "Property": "Avg Staging Time Hours"
+                        }
+                      },
+                      "FillRule": {
+                        "linearGradient2": {
+                          "min": {
+                            "color": {
+                              "Literal": {
+                                "Value": "'#a0d1ff'"
+                              }
+                            }
+                          },
+                          "max": {
+                            "color": {
+                              "Literal": {
+                                "Value": "'#FF4747'"
+                              }
+                            }
+                          },
+                          "nullColoringStrategy": {
+                            "strategy": {
+                              "Literal": {
+                                "Value": "'asZero'"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "mock_hospital_logs.Avg Staging Time Hours"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
+            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#FFFFFF'" } } } } },
+            "transparency": { "expr": { "Literal": { "Value": "0D" } } }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
+            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#D9E2F2'" } } } } },
+            "radius": { "expr": { "Literal": { "Value": "6D" } } },
+            "width": { "expr": { "Literal": { "Value": "1D" } } }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": { "expr": { "Literal": { "Value": "8D" } } },
+            "bottom": { "expr": { "Literal": { "Value": "8D" } } },
+            "left": { "expr": { "Literal": { "Value": "8D" } } },
+            "right": { "expr": { "Literal": { "Value": "8D" } } }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
+            "text": { "expr": { "Literal": { "Value": "'Average Staging Time by Department & Activity'" } } },
+            "fontSize": { "expr": { "Literal": { "Value": "14D" } } },
+            "fontColor": { "solid": { "color": { "expr": { "Literal": { "Value": "'#334155'" } } } } },
+            "fontFamily": { "expr": { "Literal": { "Value": "'Segoe UI Semibold'" } } }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "7a87d081d69dd845900e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "mock_hospital_logs"
+              }
+            },
+            "Property": "Department"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "39858b60253005583700",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "mock_hospital_logs"
+              }
+            },
+            "Property": "Activity_Name"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "da76c8720bb76a0c2448",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "mock_hospital_logs"
+              }
+            },
+            "Property": "Avg Staging Time Hours"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "ae366ebbbad004b2a2b2",
+  "position": {
+    "x": 312,
+    "y": 248,
+    "z": 7,
+    "height": 360,
+    "width": 1592,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mock_hospital_logs"
+                    }
+                  },
+                  "Property": "Activity_Name"
+                }
+              },
+              "queryRef": "mock_hospital_logs.Activity_Name",
+              "nativeQueryRef": "Activity_Name",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mock_hospital_logs"
+                    }
+                  },
+                  "Property": "Total Cases"
+                }
+              },
+              "queryRef": "mock_hospital_logs.Total Cases",
+              "nativeQueryRef": "Total Cases"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "mock_hospital_logs"
+                  }
+                },
+                "Property": "Total Cases"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
+            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#FFFFFF'" } } } } },
+            "transparency": { "expr": { "Literal": { "Value": "0D" } } }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
+            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#D9E2F2'" } } } } },
+            "radius": { "expr": { "Literal": { "Value": "6D" } } },
+            "width": { "expr": { "Literal": { "Value": "1D" } } }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": { "expr": { "Literal": { "Value": "8D" } } },
+            "bottom": { "expr": { "Literal": { "Value": "8D" } } },
+            "left": { "expr": { "Literal": { "Value": "8D" } } },
+            "right": { "expr": { "Literal": { "Value": "8D" } } }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
+            "text": { "expr": { "Literal": { "Value": "'Activity Volume by Activity'" } } },
+            "fontSize": { "expr": { "Literal": { "Value": "14D" } } },
+            "fontColor": { "solid": { "color": { "expr": { "Literal": { "Value": "'#334155'" } } } } },
+            "fontFamily": { "expr": { "Literal": { "Value": "'Segoe UI Semibold'" } } }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

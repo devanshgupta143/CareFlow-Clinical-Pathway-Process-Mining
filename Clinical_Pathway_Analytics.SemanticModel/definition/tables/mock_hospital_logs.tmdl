@@ -1,0 +1,163 @@
+table mock_hospital_logs
+	lineageTag: cdc23dca-a756-45e4-b703-6a79e2292bd0
+
+	measure 'Average LOS (Days)' =
+			
+			AVERAGEX(
+			    VALUES('mock_hospital_logs'[Case_ID]),
+			    DATEDIFF(
+			        CALCULATE(MIN('mock_hospital_logs'[Timestamp])),
+			        CALCULATE(MAX('mock_hospital_logs'[Timestamp])),
+			        DAY
+			    )
+			)
+		lineageTag: 3287f195-065f-4907-afab-999ef5d62930
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Cases' = DISTINCTCOUNT('mock_hospital_logs'[Case_ID])
+		formatString: 0
+		lineageTag: 6b49dfff-6249-4555-a28e-73a2491ca0d6
+
+	measure 'Total Events' = COUNTROWS('mock_hospital_logs')
+		formatString: 0
+		lineageTag: 17901d1f-7c7a-4873-b005-d7dbeaac8649
+
+	measure 'Average Events Per Case' = DIVIDE([Total Events], [Total Cases])
+		lineageTag: 15ccfc7b-0f08-41de-82c5-b84c034d4ed7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Rework Cases' =
+			
+			COUNTROWS(
+			    FILTER(
+			        VALUES('mock_hospital_logs'[Case_ID]),
+			        CALCULATE(COUNTROWS('mock_hospital_logs')) > CALCULATE(DISTINCTCOUNT('mock_hospital_logs'[Activity_Name]))
+			    )
+			)
+		formatString: 0
+		lineageTag: 8d05a98b-10aa-4048-a105-5477f564739d
+
+	measure 'Rework Rate' =
+			
+			DIVIDE([Rework Cases], [Total Cases], 0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 5c0430f5-202a-43e3-88a0-a9ef3e47b873
+
+	measure 'Avg Staging Time Hours' = ```
+			
+			AVERAGEX(
+			    'mock_hospital_logs',
+			    VAR CurrentCase = 'mock_hospital_logs'[Case_ID]
+			    VAR CurrentTime = 'mock_hospital_logs'[Timestamp]
+			    VAR PrevTime = 
+			        CALCULATE(
+			            MAX('mock_hospital_logs'[Timestamp]),
+			            ALLEXCEPT('mock_hospital_logs', 'mock_hospital_logs'[Case_ID]),
+			            'mock_hospital_logs'[Timestamp] < CurrentTime
+			        )
+			    RETURN
+			        IF(NOT(ISBLANK(PrevTime)), DATEDIFF(PrevTime, CurrentTime, HOUR), BLANK())
+			)
+			```
+		lineageTag: a210d773-2905-4364-b379-27c83daaef2c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Max Staging Time Hours' = ```
+			
+			MAXX(
+			    'mock_hospital_logs',
+			    VAR CurrentCase = 'mock_hospital_logs'[Case_ID]
+			    VAR CurrentTime = 'mock_hospital_logs'[Timestamp]
+			    VAR PrevTime = 
+			        CALCULATE(
+			            MAX('mock_hospital_logs'[Timestamp]),
+			            ALLEXCEPT('mock_hospital_logs', 'mock_hospital_logs'[Case_ID]),
+			            'mock_hospital_logs'[Timestamp] < CurrentTime
+			        )
+			    RETURN
+			        IF(NOT(ISBLANK(PrevTime)), DATEDIFF(PrevTime, CurrentTime, HOUR), BLANK())
+			)
+			```
+		formatString: 0
+		lineageTag: 18e43f2b-3baa-42d0-b98f-1b42d7289ec9
+
+	measure 'Case Lead Time Hours' =
+			
+			AVERAGEX(
+			    VALUES('mock_hospital_logs'[Case_ID]),
+			    VAR CaseStart = CALCULATE(MIN('mock_hospital_logs'[Timestamp]))
+			    VAR CaseEnd = CALCULATE(MAX('mock_hospital_logs'[Timestamp]))
+			    RETURN
+			        DATEDIFF(CaseStart, CaseEnd, HOUR)
+			)
+		formatString: 0.00
+		lineageTag: 12b54329-6637-4416-9193-1dddcc8a960b
+
+	measure Measure
+		lineageTag: 8ba29cc4-a67d-47f1-8104-af4e01e146fe
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure 'Avg Events Per Patient Case' =
+			
+			DIVIDE(
+			    COUNTROWS('mock_hospital_logs'),
+			    DISTINCTCOUNT('mock_hospital_logs'[Case_ID]),
+			    0
+			)
+		formatString: 0.00
+		lineageTag: e8f73dec-ea12-4c16-bee1-6522377f9462
+
+	column Case_ID
+		dataType: string
+		lineageTag: 1c92f68c-9223-481b-b4a3-3973428e0047
+		summarizeBy: none
+		sourceColumn: Case_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Activity_Name
+		dataType: string
+		lineageTag: 2fb6d91b-4f5a-45b7-aa51-c5cb2f36f8a4
+		summarizeBy: none
+		sourceColumn: Activity_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e8a1bd5b-4bf1-4519-9486-d671a85d1599
+		summarizeBy: none
+		sourceColumn: Timestamp
+
+		variation Variation
+			isDefault
+			relationship: 4e184445-1c4f-4bb8-b665-62cfc00c07f3
+			defaultHierarchy: LocalDateTable_dd4b67ac-6504-4c71-bbd9-ecaf46244498.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department
+		dataType: string
+		lineageTag: 479e445b-25e8-4692-84d8-46868b77dd10
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = Automatic
+
+	partition mock_hospital_logs = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Lenovo\CareFlow-Clinical-Pathway-Process-Mining\mock_hospital_logs.csv"),[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Case_ID", type text}, {"Activity_Name", type text}, {"Timestamp", type datetime}, {"Department", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

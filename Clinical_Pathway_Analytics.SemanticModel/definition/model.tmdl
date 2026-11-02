@@ -1,0 +1,21 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["mock_hospital_logs"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table mock_hospital_logs
+ref table DateTableTemplate_80eaed03-6283-4add-abaa-38ec719a1847
+ref table LocalDateTable_dd4b67ac-6504-4c71-bbd9-ecaf46244498
+
+ref cultureInfo en-IN
+
