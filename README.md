@@ -17,3 +17,5 @@ This project uses Process Mining techniques to analyze clinical event logs (hosp
    ```bash
    git clone https://github.com/jiyamulla1212-dev/CareFlow-Clinical-Pathway-Process-Mining.git
    cd CareFlow-Clinical-Pathway-Process-MiningUpdated Clinical Pathway Analytics project workspace, documentation, and data models for Power BI integration.
+## Data Model Updates (Nov 3, 2026)
+Configured process mining relationships and updated pathway stage tables.
