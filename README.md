@@ -20,3 +20,4 @@ This project uses Process Mining techniques to analyze clinical event logs (hosp
 ## Data Model Updates (Nov 3, 2026)
 Configured process mining relationships and updated pathway stage tables.
 Added new measure logic for average patient wait time across clinical stages.
+Updated dashboard layout, report theme colors, and interactive slicer panel.
