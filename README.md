@@ -21,3 +21,4 @@ This project uses Process Mining techniques to analyze clinical event logs (hosp
 Configured process mining relationships and updated pathway stage tables.
 Added new measure logic for average patient wait time across clinical stages.
 Updated dashboard layout, report theme colors, and interactive slicer panel.
+Refined report visual formatting, tooltips, and measure performance in Power BI.
