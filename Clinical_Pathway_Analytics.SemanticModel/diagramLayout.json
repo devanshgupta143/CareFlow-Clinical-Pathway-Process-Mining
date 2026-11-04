@@ -20,6 +20,19 @@
             "width": 234
           },
           "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 36
+          },
+          "nodeIndex": "RefreshMetadata",
+          "nodeLineageTag": "9cc901b4-c5a4-4a43-8e42-ef9c7640cc2f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",

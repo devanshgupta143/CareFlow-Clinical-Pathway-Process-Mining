@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "5034dcb2b5600a025187",
   "position": {
-    "x": 0,
-    "y": 560,
-    "z": 2,
-    "height": 452,
-    "width": 558,
-    "tabOrder": 2
+    "x": 24,
+    "y": 250,
+    "z": 2000,
+    "height": 780,
+    "width": 560,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -99,14 +99,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'Rework Cases by Department'"
                 }
               }
             },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "29D"
+                  "Value": "14D"
                 }
               }
             }

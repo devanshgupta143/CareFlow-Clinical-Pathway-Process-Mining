@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "6e27a1f25e7ba423d3a3",
   "position": {
-    "x": 492,
-    "y": 112,
-    "z": 2,
-    "height": 120,
-    "width": 460,
-    "tabOrder": 2
+    "x": 495.09466116362671,
+    "y": 233.7435760884037,
+    "z": 2000,
+    "height": 130,
+    "width": 450,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,11 +23,11 @@
                       "Entity": "mock_hospital_logs"
                     }
                   },
-                  "Property": "Rework Rate"
+                  "Property": "Avg Pathway Duration"
                 }
               },
-              "queryRef": "mock_hospital_logs.Rework Rate",
-              "nativeQueryRef": "Rework Rate"
+              "queryRef": "mock_hospital_logs.Avg Pathway Duration",
+              "nativeQueryRef": "Avg Pathway Duration"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "mock_hospital_logs"
                   }
                 },
-                "Property": "Rework Rate"
+                "Property": "Avg Pathway Duration"
               }
             },
             "direction": "Descending"
@@ -55,40 +55,148 @@
       "background": [
         {
           "properties": {
-            "show": { "expr": { "Literal": { "Value": "true" } } },
-            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#FFFFFF'" } } } } },
-            "transparency": { "expr": { "Literal": { "Value": "0D" } } }
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
           }
         }
       ],
       "border": [
         {
           "properties": {
-            "show": { "expr": { "Literal": { "Value": "true" } } },
-            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#D9E2F2'" } } } } },
-            "radius": { "expr": { "Literal": { "Value": "6D" } } },
-            "width": { "expr": { "Literal": { "Value": "1D" } } }
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D9E2F2'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
           }
         }
       ],
       "padding": [
         {
           "properties": {
-            "top": { "expr": { "Literal": { "Value": "8D" } } },
-            "bottom": { "expr": { "Literal": { "Value": "8D" } } },
-            "left": { "expr": { "Literal": { "Value": "8D" } } },
-            "right": { "expr": { "Literal": { "Value": "8D" } } }
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
           }
         }
       ],
       "title": [
         {
           "properties": {
-            "show": { "expr": { "Literal": { "Value": "true" } } },
-            "text": { "expr": { "Literal": { "Value": "'Rework Rate'" } } },
-            "fontSize": { "expr": { "Literal": { "Value": "12D" } } },
-            "fontColor": { "solid": { "color": { "expr": { "Literal": { "Value": "'#334155'" } } } } },
-            "fontFamily": { "expr": { "Literal": { "Value": "'Segoe UI Semibold'" } } }
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Avg Pathway Duration (Days)'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#334155'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
+                }
+              }
+            }
           }
         }
       ]

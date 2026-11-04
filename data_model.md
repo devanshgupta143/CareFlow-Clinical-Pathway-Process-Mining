@@ -1,9 +1,16 @@
 # Star Schema Data Model Architecture
 
 ## Model Overview
-- **Architecture Type**: Star Schema optimized for Power BI Process Mining.
-- **Fact Table**: `Fact_Hospital_Events` (containing event logs, timestamps, wait times).
-- **Dimension Tables**: 
-  - `Dim_Patient` (Patient demographics, risk groups)
-  - `Dim_Department` (Hospital wards, facility IDs)
-  - `Dim_Calendar` (Date, month, quarter, day of week)
+
+- **Architecture Type**: Star schema with a case-grain hub and event/transition facts.
+- **Facts**: `Cases` (one row per encounter), `Events`, `Transitions`,
+  `StageMetrics`, `Bottlenecks`, `VariantFrequency`, and `VariantFlows`.
+- **Dimensions**: `DimDate`, `DimActivity`, `DimDepartment`, `DimDiagnosis`,
+  `DimResource`, and `DimVariant`.
+
+## Generated Power BI model
+
+The PM4Py exporter now defines the concrete `Cases`, `Events`, `Transitions`,
+stage/bottleneck, variant-flow and dimension table schemas. See
+[docs/power_bi_integration.md](docs/power_bi_integration.md) for field-level
+definitions, relationship cardinalities, DAX measures, and PBIP import steps.

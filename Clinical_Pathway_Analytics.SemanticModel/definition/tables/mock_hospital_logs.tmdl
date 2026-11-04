@@ -111,6 +111,23 @@ table mock_hospital_logs
 		formatString: 0.00
 		lineageTag: e8f73dec-ea12-4c16-bee1-6522377f9462
 
+	measure 'Avg Pathway Duration' =
+			AVERAGEX(
+			    VALUES('mock_hospital_logs'[Case_ID]),
+			    CALCULATE(MAX('mock_hospital_logs'[Timestamp]))
+			        - CALCULATE(MIN('mock_hospital_logs'[Timestamp]))
+			)
+		formatString: 0.0
+		lineageTag: 5e3bf0ad-0030-491b-99d4-37f6bbf92683
+
+	measure 'Pathway Variant Cases' = DISTINCTCOUNT('mock_hospital_logs'[Case_ID])
+		formatString: 0
+		lineageTag: 7668ec25-e19e-4cc4-bec3-002acf70b702
+
+	measure 'Data Refresh Timestamp' = MAX('RefreshMetadata'[Refresh Timestamp])
+		formatString: dd mmm yyyy, hh:mm
+		lineageTag: 2eb9be53-4b19-4150-8d56-0b476cab8b0e
+
 	column Case_ID
 		dataType: string
 		lineageTag: 1c92f68c-9223-481b-b4a3-3973428e0047
@@ -148,6 +165,23 @@ table mock_hospital_logs
 		sourceColumn: Department
 
 		annotation SummarizationSetBy = Automatic
+
+	column 'Pathway Variant' =
+			VAR CurrentCase = 'mock_hospital_logs'[Case_ID]
+			RETURN
+			    CONCATENATEX(
+			        FILTER(
+			            ALL('mock_hospital_logs'),
+			            'mock_hospital_logs'[Case_ID] = CurrentCase
+			        ),
+			        'mock_hospital_logs'[Activity_Name],
+			        " > ",
+			        'mock_hospital_logs'[Timestamp],
+			        ASC
+			    )
+		dataType: string
+		lineageTag: 6718be2c-e737-49d9-8a78-4e16c02db5e9
+		summarizeBy: none
 
 	partition mock_hospital_logs = m
 		mode: import

@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "6ee81c214d640201c7b7",
   "position": {
-    "x": 16,
-    "y": 384,
-    "z": 6,
-    "height": 120,
-    "width": 280,
-    "tabOrder": 6
+    "x": 364.41911862601523,
+    "y": 88.344028757821874,
+    "z": 6000,
+    "height": 132.5160431367328,
+    "width": 559.51218213287189,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "slicer",
@@ -23,11 +23,11 @@
                       "Entity": "mock_hospital_logs"
                     }
                   },
-                  "Property": "Activity_Name"
+                  "Property": "Timestamp"
                 }
               },
-              "queryRef": "mock_hospital_logs.Activity_Name",
-              "nativeQueryRef": "Activity_Name",
+              "queryRef": "mock_hospital_logs.Timestamp",
+              "nativeQueryRef": "Timestamp",
               "active": true
             }
           ]
@@ -41,7 +41,7 @@
             "mode": {
               "expr": {
                 "Literal": {
-                  "Value": "'Dropdown'"
+                  "Value": "'Between'"
                 }
               }
             }
@@ -53,40 +53,148 @@
       "background": [
         {
           "properties": {
-            "show": { "expr": { "Literal": { "Value": "true" } } },
-            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#FFFFFF'" } } } } },
-            "transparency": { "expr": { "Literal": { "Value": "0D" } } }
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
           }
         }
       ],
       "border": [
         {
           "properties": {
-            "show": { "expr": { "Literal": { "Value": "true" } } },
-            "color": { "solid": { "color": { "expr": { "Literal": { "Value": "'#D9E2F2'" } } } } },
-            "radius": { "expr": { "Literal": { "Value": "6D" } } },
-            "width": { "expr": { "Literal": { "Value": "1D" } } }
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D9E2F2'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
           }
         }
       ],
       "padding": [
         {
           "properties": {
-            "top": { "expr": { "Literal": { "Value": "8D" } } },
-            "bottom": { "expr": { "Literal": { "Value": "8D" } } },
-            "left": { "expr": { "Literal": { "Value": "8D" } } },
-            "right": { "expr": { "Literal": { "Value": "8D" } } }
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
           }
         }
       ],
       "title": [
         {
           "properties": {
-            "show": { "expr": { "Literal": { "Value": "true" } } },
-            "text": { "expr": { "Literal": { "Value": "'Activity'" } } },
-            "fontSize": { "expr": { "Literal": { "Value": "12D" } } },
-            "fontColor": { "solid": { "color": { "expr": { "Literal": { "Value": "'#334155'" } } } } },
-            "fontFamily": { "expr": { "Literal": { "Value": "'Segoe UI Semibold'" } } }
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Date Range'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#334155'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
+                }
+              }
+            }
           }
         }
       ]

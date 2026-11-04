@@ -22,3 +22,12 @@ Configured process mining relationships and updated pathway stage tables.
 Added new measure logic for average patient wait time across clinical stages.
 Updated dashboard layout, report theme colors, and interactive slicer panel.
 Refined report visual formatting, tooltips, and measure performance in Power BI.
+
+## Process Mining and PBIP Integration
+
+Run `python src\process_mining.py` from the repository root to generate the
+Power BI import tables under `data\processed`. See
+[docs/power_bi_integration.md](docs/power_bi_integration.md) for the output
+schema, model relationships, DAX measures, and PBIP setup steps.
+## Updates (Nov 4, 2026)
+Configured dataset schema mappings and validated event log structures.
