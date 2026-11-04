@@ -31,3 +31,4 @@ Power BI import tables under `data\processed`. See
 schema, model relationships, DAX measures, and PBIP setup steps.
 ## Updates (Nov 4, 2026)
 Configured dataset schema mappings and validated event log structures.
+Refined process mining script to output throughput times and bottleneck tables.
