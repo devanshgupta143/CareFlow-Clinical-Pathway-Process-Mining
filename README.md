@@ -37,3 +37,4 @@ Completed local setup, dependency checks, and daily project progress log.
 ## Update (Nov 5, 2026)
 Documented pipeline execution steps and dashboard layout requirements.
 Verified argument parsing for input logs and metadata paths.
+Added integration notes for connecting PM4Py outputs to Power BI tables.
