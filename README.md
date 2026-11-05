@@ -36,3 +36,4 @@ Added DAX measures for patient wait times and configured report tooltips.
 Completed local setup, dependency checks, and daily project progress log.
 ## Update (Nov 5, 2026)
 Documented pipeline execution steps and dashboard layout requirements.
+Verified argument parsing for input logs and metadata paths.
