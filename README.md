@@ -34,3 +34,5 @@ Configured dataset schema mappings and validated event log structures.
 Refined process mining script to output throughput times and bottleneck tables.
 Added DAX measures for patient wait times and configured report tooltips.
 Completed local setup, dependency checks, and daily project progress log.
+## Update (Nov 5, 2026)
+Documented pipeline execution steps and dashboard layout requirements.
