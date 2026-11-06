@@ -40,3 +40,4 @@ Verified argument parsing for input logs and metadata paths.
 Added integration notes for connecting PM4Py outputs to Power BI tables.
 ## Update (Nov 6, 2026)
 Configured execution logging for PM4Py event log processing and exception handling.
+Documented mandatory column schemas for case IDs, timestamps, and activity names.
